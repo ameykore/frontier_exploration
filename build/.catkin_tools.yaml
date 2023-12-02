@@ -1,0 +1,6 @@
+devel_space: /frontier_expo/frontier_exploration/devel
+install: false
+install_space: /frontier_expo/frontier_exploration/install
+profile: default
+source_space: /frontier_expo/frontier_exploration/src
+workspace: /frontier_expo/frontier_exploration

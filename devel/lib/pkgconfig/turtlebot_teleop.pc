@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/turtlebot_teleop/lib/pkgconfig/turtlebot_teleop.pc

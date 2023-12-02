@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/turtlebot_stage/lib/pkgconfig/turtlebot_stage.pc

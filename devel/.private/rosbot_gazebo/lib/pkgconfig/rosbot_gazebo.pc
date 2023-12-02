@@ -1,0 +1,8 @@
+prefix=/frontier_expo/frontier_exploration/devel/.private/rosbot_gazebo
+
+Name: rosbot_gazebo
+Description: Description of rosbot_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

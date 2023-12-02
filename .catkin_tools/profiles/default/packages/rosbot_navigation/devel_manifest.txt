@@ -1,0 +1,5 @@
+rosbot_description/src/rosbot_navigation
+/frontier_expo/frontier_exploration/devel/.private/rosbot_navigation/cmake.lock /frontier_expo/frontier_exploration/devel/./cmake.lock
+/frontier_expo/frontier_exploration/devel/.private/rosbot_navigation/lib/pkgconfig/rosbot_navigation.pc /frontier_expo/frontier_exploration/devel/lib/pkgconfig/rosbot_navigation.pc
+/frontier_expo/frontier_exploration/devel/.private/rosbot_navigation/share/rosbot_navigation/cmake/rosbot_navigationConfig.cmake /frontier_expo/frontier_exploration/devel/share/rosbot_navigation/cmake/rosbot_navigationConfig.cmake
+/frontier_expo/frontier_exploration/devel/.private/rosbot_navigation/share/rosbot_navigation/cmake/rosbot_navigationConfig-version.cmake /frontier_expo/frontier_exploration/devel/share/rosbot_navigation/cmake/rosbot_navigationConfig-version.cmake

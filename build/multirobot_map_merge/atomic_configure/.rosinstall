@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /frontier_expo/frontier_exploration/devel/.private/multirobot_map_merge/setup.sh

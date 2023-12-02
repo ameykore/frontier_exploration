@@ -1,0 +1,4 @@
+Symlinking /frontier_expo/frontier_exploration/devel/etc/catkin/profile.d/25.turtlebot.sh
+Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/turtlebot_bringup.pc
+Symlinking /frontier_expo/frontier_exploration/devel/share/turtlebot_bringup/cmake/turtlebot_bringupConfig.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/share/turtlebot_bringup/cmake/turtlebot_bringupConfig-version.cmake

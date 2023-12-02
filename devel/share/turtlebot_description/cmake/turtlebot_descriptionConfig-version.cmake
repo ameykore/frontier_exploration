@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/turtlebot_description/share/turtlebot_description/cmake/turtlebot_descriptionConfig-version.cmake

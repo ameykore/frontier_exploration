@@ -1,0 +1,4 @@
+Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/turtlebot_teleop.pc
+Symlinking /frontier_expo/frontier_exploration/devel/lib/turtlebot_teleop/turtlebot_teleop_joy
+Symlinking /frontier_expo/frontier_exploration/devel/share/turtlebot_teleop/cmake/turtlebot_teleopConfig-version.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/share/turtlebot_teleop/cmake/turtlebot_teleopConfig.cmake
