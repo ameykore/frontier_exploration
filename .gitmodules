@@ -40,3 +40,6 @@
 [submodule "src/ecl_core"]
 	path = src/ecl_core
 	url = https://github.com/stonier/ecl_core.git
+[submodule "src/rosbot_description"]
+	path = src/rosbot_description
+	url = https://github.com/husarion/rosbot_description.git
