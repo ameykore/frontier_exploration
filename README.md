@@ -1,2 +1,3 @@
 # frontier_exploration
-### Check the master branch
+### Do catkin build
+### After build successful run  ``` roslaunch rosbot_description rosbot_rviz_gmapping.launch ```
