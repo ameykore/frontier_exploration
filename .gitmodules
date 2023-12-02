@@ -1,3 +1,12 @@
 [submodule "src/ecl_tools"]
 	path = src/ecl_tools
 	url = https://github.com/stonier/ecl_tools.git
+[submodule "src/m-explore"]
+	path = src/m-explore
+	url = https://github.com/hrnr/m-explore.git
+[submodule "src/turtlebot3"]
+	path = src/turtlebot3
+	url = https://github.com/ROBOTIS-GIT/turtlebot3.git
+[submodule "src/turtlebot_simulator"]
+	path = src/turtlebot_simulator
+	url = https://github.com/turtlebot/turtlebot_simulator.git
