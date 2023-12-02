@@ -19,3 +19,24 @@
 [submodule "turtlebot_simulator"]
 	path = turtlebot_simulator
 	url = https://github.com/turtlebot/turtlebot_simulator.git
+[submodule "src/turtlebot"]
+	path = src/turtlebot
+	url = https://github.com/turtlebot/turtlebot.git
+[submodule "src/kobuki"]
+	path = src/kobuki
+	url = https://github.com/yujinrobot/kobuki.git
+[submodule "src/kobuki_msgs"]
+	path = src/kobuki_msgs
+	url = https://github.com/yujinrobot/kobuki_msgs.git
+[submodule "src/yujin_ocs"]
+	path = src/yujin_ocs
+	url = https://github.com/yujinrobot/yujin_ocs.git
+[submodule "src/yocs_msgs"]
+	path = src/yocs_msgs
+	url = https://github.com/yujinrobot/yocs_msgs.git
+[submodule "src/kobuki_core"]
+	path = src/kobuki_core
+	url = https://github.com/yujinrobot/kobuki_core.git
+[submodule "src/ecl_core"]
+	path = src/ecl_core
+	url = https://github.com/stonier/ecl_core.git
