@@ -1,0 +1,3 @@
+[submodule "src/ecl_tools"]
+	path = src/ecl_tools
+	url = https://github.com/stonier/ecl_tools.git
