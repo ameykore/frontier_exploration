@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target tutorial_pkg_node[0m
+[35m[1mScanning dependencies of target action_controller_node[0m
+[35m[1mScanning dependencies of target drive_controller_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/tutorial_pkg_node.dir/src/tutorial_pkg_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/drive_controller_node.dir/src/drive_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable /frontier_expo/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/tutorial_pkg_node[0m
+[ 66%] Built target tutorial_pkg_node
+[ 83%] [32m[1mLinking CXX executable /frontier_expo/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/drive_controller_node[0m
+[ 83%] Built target drive_controller_node
+[100%] [32m[1mLinking CXX executable /frontier_expo/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/action_controller_node[0m
+[100%] Built target action_controller_node

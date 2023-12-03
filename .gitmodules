@@ -43,3 +43,6 @@
 [submodule "src/rosbot_description"]
 	path = src/rosbot_description
 	url = https://github.com/husarion/rosbot_description.git
+[submodule "src/tutorial_pkg"]
+	path = src/tutorial_pkg
+	url = https://github.com/husarion/tutorial_pkg.git
