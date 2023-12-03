@@ -1,0 +1,8 @@
+prefix=/frontier_expo/frontier_exploration/devel/.private/yocs_keyop
+
+Name: yocs_keyop
+Description: Description of yocs_keyop
+Version: 0.12.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

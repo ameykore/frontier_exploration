@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /frontier_expo/frontier_exploration/devel/.private/kobuki_controller_tutorial/setup.sh

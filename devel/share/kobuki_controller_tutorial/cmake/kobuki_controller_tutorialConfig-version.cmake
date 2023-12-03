@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/kobuki_controller_tutorial/share/kobuki_controller_tutorial/cmake/kobuki_controller_tutorialConfig-version.cmake

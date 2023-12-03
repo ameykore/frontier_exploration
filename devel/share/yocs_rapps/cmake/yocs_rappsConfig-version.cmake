@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/yocs_rapps/share/yocs_rapps/cmake/yocs_rappsConfig-version.cmake

@@ -1,0 +1,4 @@
+Symlinking /frontier_expo/frontier_exploration/devel/lib/libbump_blink_controller_nodelet.so
+Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/kobuki_controller_tutorial.pc
+Symlinking /frontier_expo/frontier_exploration/devel/share/kobuki_controller_tutorial/cmake/kobuki_controller_tutorialConfig.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/share/kobuki_controller_tutorial/cmake/kobuki_controller_tutorialConfig-version.cmake

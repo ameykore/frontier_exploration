@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/yocs_controllers/share/yocs_controllers/cmake/yocs_controllersConfig-version.cmake

@@ -1,0 +1,4 @@
+Symlinking /frontier_expo/frontier_exploration/devel/lib/libyocs_safety_controller_nodelet.so
+Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/yocs_safety_controller.pc
+Symlinking /frontier_expo/frontier_exploration/devel/share/yocs_safety_controller/cmake/yocs_safety_controllerConfig-version.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/share/yocs_safety_controller/cmake/yocs_safety_controllerConfig.cmake

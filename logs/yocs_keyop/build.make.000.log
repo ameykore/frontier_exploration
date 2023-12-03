@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target yocs_keyop[0m
+[ 33%] [32mBuilding CXX object src/CMakeFiles/yocs_keyop.dir/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/CMakeFiles/yocs_keyop.dir/keyop.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /frontier_expo/frontier_exploration/devel/.private/yocs_keyop/lib/yocs_keyop/yocs_keyop[0m
+[100%] Built target yocs_keyop

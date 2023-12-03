@@ -1,0 +1,8 @@
+prefix=/frontier_expo/frontier_exploration/devel/.private/exploration
+
+Name: exploration
+Description: Description of exploration
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

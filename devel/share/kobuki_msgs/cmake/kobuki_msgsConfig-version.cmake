@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/kobuki_msgs/share/kobuki_msgs/cmake/kobuki_msgsConfig-version.cmake

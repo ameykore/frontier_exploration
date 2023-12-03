@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/exploration/lib/pkgconfig/exploration.pc

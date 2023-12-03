@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake

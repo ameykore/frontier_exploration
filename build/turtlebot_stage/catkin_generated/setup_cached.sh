@@ -5,8 +5,6 @@
 # it emulates the modifications of the setup script without recurring computations
 
 # new environment variables
-export TURTLEBOT_STAGE_MAP_FILE='/frontier_expo/frontier_exploration/src/turtlebot_simulator/turtlebot_stage/maps/maze.yaml'
-export TURTLEBOT_STAGE_WORLD_FILE='/frontier_expo/frontier_exploration/src/turtlebot_simulator/turtlebot_stage/maps/stage/maze.world'
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/frontier_expo/frontier_exploration/devel/.private/turtlebot_stage:$CMAKE_PREFIX_PATH"

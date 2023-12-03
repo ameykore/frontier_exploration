@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig-version.cmake

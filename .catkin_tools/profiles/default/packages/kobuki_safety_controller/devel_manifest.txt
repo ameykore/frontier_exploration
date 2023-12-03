@@ -1,0 +1,6 @@
+kobuki/kobuki_safety_controller
+/frontier_expo/frontier_exploration/devel/.private/kobuki_safety_controller/cmake.lock /frontier_expo/frontier_exploration/devel/./cmake.lock
+/frontier_expo/frontier_exploration/devel/.private/kobuki_safety_controller/lib/libkobuki_safety_controller_nodelet.so /frontier_expo/frontier_exploration/devel/lib/libkobuki_safety_controller_nodelet.so
+/frontier_expo/frontier_exploration/devel/.private/kobuki_safety_controller/lib/pkgconfig/kobuki_safety_controller.pc /frontier_expo/frontier_exploration/devel/lib/pkgconfig/kobuki_safety_controller.pc
+/frontier_expo/frontier_exploration/devel/.private/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig.cmake /frontier_expo/frontier_exploration/devel/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig.cmake
+/frontier_expo/frontier_exploration/devel/.private/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig-version.cmake /frontier_expo/frontier_exploration/devel/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig-version.cmake

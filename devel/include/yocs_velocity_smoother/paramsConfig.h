@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/yocs_velocity_smoother/include/yocs_velocity_smoother/paramsConfig.h

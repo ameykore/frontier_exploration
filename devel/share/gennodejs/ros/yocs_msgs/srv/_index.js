@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/yocs_msgs/share/gennodejs/ros/yocs_msgs/srv/_index.js

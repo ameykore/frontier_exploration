@@ -1,0 +1,5 @@
+kobuki/kobuki_description
+/frontier_expo/frontier_exploration/devel/.private/kobuki_description/cmake.lock /frontier_expo/frontier_exploration/devel/./cmake.lock
+/frontier_expo/frontier_exploration/devel/.private/kobuki_description/lib/pkgconfig/kobuki_description.pc /frontier_expo/frontier_exploration/devel/lib/pkgconfig/kobuki_description.pc
+/frontier_expo/frontier_exploration/devel/.private/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake /frontier_expo/frontier_exploration/devel/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake
+/frontier_expo/frontier_exploration/devel/.private/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake /frontier_expo/frontier_exploration/devel/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake

@@ -1,0 +1,8 @@
+prefix=/frontier_expo/frontier_exploration/devel/.private/yocs_controllers
+
+Name: yocs_controllers
+Description: Description of yocs_controllers
+Version: 0.12.1
+Cflags: -I/frontier_expo/frontier_exploration/src/yujin_ocs/yocs_controllers/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

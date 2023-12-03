@@ -1,0 +1,11 @@
+Symlinking /frontier_expo/frontier_exploration/devel/include/yocs_cmd_vel_mux/reloadConfig.h
+Symlinking /frontier_expo/frontier_exploration/devel/lib/libyocs_cmd_vel_mux_nodelet.so
+Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/yocs_cmd_vel_mux.pc
+Symlinking /frontier_expo/frontier_exploration/devel/lib/python3/dist-packages/yocs_cmd_vel_mux/__init__.py
+Symlinking /frontier_expo/frontier_exploration/devel/lib/python3/dist-packages/yocs_cmd_vel_mux/cfg/__init__.py
+Symlinking /frontier_expo/frontier_exploration/devel/lib/python3/dist-packages/yocs_cmd_vel_mux/cfg/reloadConfig.py
+Symlinking /frontier_expo/frontier_exploration/devel/share/yocs_cmd_vel_mux/cmake/yocs_cmd_vel_muxConfig.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/share/yocs_cmd_vel_mux/cmake/yocs_cmd_vel_muxConfig-version.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/share/yocs_cmd_vel_mux/docs/reloadConfig-usage.dox
+Symlinking /frontier_expo/frontier_exploration/devel/share/yocs_cmd_vel_mux/docs/reloadConfig.dox
+Symlinking /frontier_expo/frontier_exploration/devel/share/yocs_cmd_vel_mux/docs/reloadConfig.wikidoc

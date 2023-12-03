@@ -1,0 +1,6 @@
+yujin_ocs/yocs_localization_manager
+/frontier_expo/frontier_exploration/devel/.private/yocs_localization_manager/cmake.lock /frontier_expo/frontier_exploration/devel/./cmake.lock
+/frontier_expo/frontier_exploration/devel/.private/yocs_localization_manager/lib/pkgconfig/yocs_localization_manager.pc /frontier_expo/frontier_exploration/devel/lib/pkgconfig/yocs_localization_manager.pc
+/frontier_expo/frontier_exploration/devel/.private/yocs_localization_manager/lib/python3/dist-packages/yocs_localization_manager/__init__.py /frontier_expo/frontier_exploration/devel/lib/python3/dist-packages/yocs_localization_manager/__init__.py
+/frontier_expo/frontier_exploration/devel/.private/yocs_localization_manager/share/yocs_localization_manager/cmake/yocs_localization_managerConfig.cmake /frontier_expo/frontier_exploration/devel/share/yocs_localization_manager/cmake/yocs_localization_managerConfig.cmake
+/frontier_expo/frontier_exploration/devel/.private/yocs_localization_manager/share/yocs_localization_manager/cmake/yocs_localization_managerConfig-version.cmake /frontier_expo/frontier_exploration/devel/share/yocs_localization_manager/cmake/yocs_localization_managerConfig-version.cmake

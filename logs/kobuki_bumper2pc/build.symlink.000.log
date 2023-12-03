@@ -1,0 +1,4 @@
+Symlinking /frontier_expo/frontier_exploration/devel/lib/libkobuki_bumper2pc_nodelet.so
+Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/kobuki_bumper2pc.pc
+Symlinking /frontier_expo/frontier_exploration/devel/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake

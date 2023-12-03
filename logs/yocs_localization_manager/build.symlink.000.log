@@ -1,0 +1,4 @@
+Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/yocs_localization_manager.pc
+Symlinking /frontier_expo/frontier_exploration/devel/lib/python3/dist-packages/yocs_localization_manager/__init__.py
+Symlinking /frontier_expo/frontier_exploration/devel/share/yocs_localization_manager/cmake/yocs_localization_managerConfig.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/share/yocs_localization_manager/cmake/yocs_localization_managerConfig-version.cmake

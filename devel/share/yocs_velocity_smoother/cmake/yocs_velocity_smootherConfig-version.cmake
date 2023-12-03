@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/yocs_velocity_smoother/share/yocs_velocity_smoother/cmake/yocs_velocity_smootherConfig-version.cmake

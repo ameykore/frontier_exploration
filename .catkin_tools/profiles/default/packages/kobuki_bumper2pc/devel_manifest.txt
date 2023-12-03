@@ -1,0 +1,6 @@
+kobuki/kobuki_bumper2pc
+/frontier_expo/frontier_exploration/devel/.private/kobuki_bumper2pc/cmake.lock /frontier_expo/frontier_exploration/devel/./cmake.lock
+/frontier_expo/frontier_exploration/devel/.private/kobuki_bumper2pc/lib/libkobuki_bumper2pc_nodelet.so /frontier_expo/frontier_exploration/devel/lib/libkobuki_bumper2pc_nodelet.so
+/frontier_expo/frontier_exploration/devel/.private/kobuki_bumper2pc/lib/pkgconfig/kobuki_bumper2pc.pc /frontier_expo/frontier_exploration/devel/lib/pkgconfig/kobuki_bumper2pc.pc
+/frontier_expo/frontier_exploration/devel/.private/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake /frontier_expo/frontier_exploration/devel/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake
+/frontier_expo/frontier_exploration/devel/.private/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake /frontier_expo/frontier_exploration/devel/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake

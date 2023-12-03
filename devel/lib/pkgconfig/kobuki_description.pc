@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/kobuki_description/lib/pkgconfig/kobuki_description.pc

@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake
