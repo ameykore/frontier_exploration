@@ -1,0 +1,8 @@
+prefix=/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf
+
+Name: rosbot_ekf
+Description: Description of rosbot_ekf
+Version: 1.0.0
+Cflags: -I/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy message_runtime

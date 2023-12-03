@@ -46,3 +46,9 @@
 [submodule "src/tutorial_pkg"]
 	path = src/tutorial_pkg
 	url = https://github.com/husarion/tutorial_pkg.git
+[submodule "src/rosbot_ekf"]
+	path = src/rosbot_ekf
+	url = https://github.com/husarion/rosbot_ekf.git
+[submodule "src/rplidar_ros"]
+	path = src/rplidar_ros
+	url = https://github.com/Slamtec/rplidar_ros.git
