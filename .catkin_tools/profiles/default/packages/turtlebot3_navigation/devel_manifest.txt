@@ -1,5 +1,0 @@
-turtlebot3/turtlebot3_navigation
-/frontier_expo/frontier_exploration/devel/.private/turtlebot3_navigation/cmake.lock /frontier_expo/frontier_exploration/devel/./cmake.lock
-/frontier_expo/frontier_exploration/devel/.private/turtlebot3_navigation/lib/pkgconfig/turtlebot3_navigation.pc /frontier_expo/frontier_exploration/devel/lib/pkgconfig/turtlebot3_navigation.pc
-/frontier_expo/frontier_exploration/devel/.private/turtlebot3_navigation/share/turtlebot3_navigation/cmake/turtlebot3_navigationConfig-version.cmake /frontier_expo/frontier_exploration/devel/share/turtlebot3_navigation/cmake/turtlebot3_navigationConfig-version.cmake
-/frontier_expo/frontier_exploration/devel/.private/turtlebot3_navigation/share/turtlebot3_navigation/cmake/turtlebot3_navigationConfig.cmake /frontier_expo/frontier_exploration/devel/share/turtlebot3_navigation/cmake/turtlebot3_navigationConfig.cmake

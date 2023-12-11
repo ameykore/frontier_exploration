@@ -1,1 +1,0 @@
-/frontier_expo/frontier_exploration/devel/.private/kobuki_random_walker/lib/pkgconfig/kobuki_random_walker.pc

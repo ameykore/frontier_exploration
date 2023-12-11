@@ -1,1 +1,0 @@
-/frontier_expo/frontier_exploration/devel/.private/kobuki_msgs/share/roseus/ros/kobuki_msgs/msg/DigitalOutput.l

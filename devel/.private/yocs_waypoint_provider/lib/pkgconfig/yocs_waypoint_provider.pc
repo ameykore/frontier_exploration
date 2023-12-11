@@ -1,8 +1,0 @@
-prefix=/frontier_expo/frontier_exploration/devel/.private/yocs_waypoint_provider
-
-Name: yocs_waypoint_provider
-Description: Description of yocs_waypoint_provider
-Version: 0.12.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp visualization_msgs yocs_msgs

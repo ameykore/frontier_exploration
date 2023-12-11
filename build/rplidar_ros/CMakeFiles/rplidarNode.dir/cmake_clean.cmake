@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode"
-  "/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode.pdb"
+  "/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode"
+  "/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode.pdb"
   "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o"

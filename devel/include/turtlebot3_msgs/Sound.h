@@ -1,1 +1,0 @@
-/frontier_expo/frontier_exploration/devel/.private/turtlebot3_msgs/include/turtlebot3_msgs/Sound.h

@@ -1,1 +1,0 @@
-/frontier_expo/frontier_exploration/devel/.private/yocs_safety_controller/share/yocs_safety_controller/cmake/yocs_safety_controllerConfig-version.cmake

@@ -1,8 +1,8 @@
-# Install script for directory: /frontier_expo/frontier_exploration/src/m-explore/explore
+# Install script for directory: /home/ekin/frontier_exploration/src/m-explore/explore
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/frontier_expo/frontier_exploration/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ekin/frontier_exploration/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,98 +49,98 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/frontier_expo/frontier_exploration/install/_setup_util.py")
+   "/home/ekin/frontier_exploration/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/frontier_expo/frontier_exploration/install" TYPE PROGRAM FILES "/frontier_expo/frontier_exploration/build/explore_lite/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/ekin/frontier_exploration/install" TYPE PROGRAM FILES "/home/ekin/frontier_exploration/build/explore_lite/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/frontier_expo/frontier_exploration/install/env.sh")
+   "/home/ekin/frontier_exploration/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/frontier_expo/frontier_exploration/install" TYPE PROGRAM FILES "/frontier_expo/frontier_exploration/build/explore_lite/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/ekin/frontier_exploration/install" TYPE PROGRAM FILES "/home/ekin/frontier_exploration/build/explore_lite/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/frontier_expo/frontier_exploration/install/setup.bash;/frontier_expo/frontier_exploration/install/local_setup.bash")
+   "/home/ekin/frontier_exploration/install/setup.bash;/home/ekin/frontier_exploration/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/frontier_expo/frontier_exploration/install" TYPE FILE FILES
-    "/frontier_expo/frontier_exploration/build/explore_lite/catkin_generated/installspace/setup.bash"
-    "/frontier_expo/frontier_exploration/build/explore_lite/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/ekin/frontier_exploration/install" TYPE FILE FILES
+    "/home/ekin/frontier_exploration/build/explore_lite/catkin_generated/installspace/setup.bash"
+    "/home/ekin/frontier_exploration/build/explore_lite/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/frontier_expo/frontier_exploration/install/setup.sh;/frontier_expo/frontier_exploration/install/local_setup.sh")
+   "/home/ekin/frontier_exploration/install/setup.sh;/home/ekin/frontier_exploration/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/frontier_expo/frontier_exploration/install" TYPE FILE FILES
-    "/frontier_expo/frontier_exploration/build/explore_lite/catkin_generated/installspace/setup.sh"
-    "/frontier_expo/frontier_exploration/build/explore_lite/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/ekin/frontier_exploration/install" TYPE FILE FILES
+    "/home/ekin/frontier_exploration/build/explore_lite/catkin_generated/installspace/setup.sh"
+    "/home/ekin/frontier_exploration/build/explore_lite/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/frontier_expo/frontier_exploration/install/setup.zsh;/frontier_expo/frontier_exploration/install/local_setup.zsh")
+   "/home/ekin/frontier_exploration/install/setup.zsh;/home/ekin/frontier_exploration/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/frontier_expo/frontier_exploration/install" TYPE FILE FILES
-    "/frontier_expo/frontier_exploration/build/explore_lite/catkin_generated/installspace/setup.zsh"
-    "/frontier_expo/frontier_exploration/build/explore_lite/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/ekin/frontier_exploration/install" TYPE FILE FILES
+    "/home/ekin/frontier_exploration/build/explore_lite/catkin_generated/installspace/setup.zsh"
+    "/home/ekin/frontier_exploration/build/explore_lite/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/frontier_expo/frontier_exploration/install/.rosinstall")
+   "/home/ekin/frontier_exploration/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/frontier_expo/frontier_exploration/install" TYPE FILE FILES "/frontier_expo/frontier_exploration/build/explore_lite/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/ekin/frontier_exploration/install" TYPE FILE FILES "/home/ekin/frontier_exploration/build/explore_lite/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/frontier_expo/frontier_exploration/build/explore_lite/catkin_generated/installspace/explore_lite.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ekin/frontier_exploration/build/explore_lite/catkin_generated/installspace/explore_lite.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/explore_lite/cmake" TYPE FILE FILES
-    "/frontier_expo/frontier_exploration/build/explore_lite/catkin_generated/installspace/explore_liteConfig.cmake"
-    "/frontier_expo/frontier_exploration/build/explore_lite/catkin_generated/installspace/explore_liteConfig-version.cmake"
+    "/home/ekin/frontier_exploration/build/explore_lite/catkin_generated/installspace/explore_liteConfig.cmake"
+    "/home/ekin/frontier_exploration/build/explore_lite/catkin_generated/installspace/explore_liteConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/explore_lite" TYPE FILE FILES "/frontier_expo/frontier_exploration/src/m-explore/explore/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/explore_lite" TYPE FILE FILES "/home/ekin/frontier_exploration/src/m-explore/explore/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -150,7 +150,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/explore_lite/explore"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/explore_lite" TYPE EXECUTABLE FILES "/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/explore_lite" TYPE EXECUTABLE FILES "/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/explore_lite/explore" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/explore_lite/explore")
     file(RPATH_CHANGE
@@ -164,12 +164,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/explore_lite/launch" TYPE DIRECTORY FILES "/frontier_expo/frontier_exploration/src/m-explore/explore/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/explore_lite/launch" TYPE DIRECTORY FILES "/home/ekin/frontier_exploration/src/m-explore/explore/launch/")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/frontier_expo/frontier_exploration/build/explore_lite/gtest/cmake_install.cmake")
+  include("/home/ekin/frontier_exploration/build/explore_lite/gtest/cmake_install.cmake")
 
 endif()
 
@@ -181,5 +181,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/frontier_expo/frontier_exploration/build/explore_lite/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ekin/frontier_exploration/build/explore_lite/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

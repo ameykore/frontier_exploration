@@ -1,6 +1,0 @@
-turtlebot_simulator/turtlebot_gazebo
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_gazebo/cmake.lock /frontier_expo/frontier_exploration/devel/./cmake.lock
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_gazebo/etc/catkin/profile.d/25.turtlebot-gazebo.sh /frontier_expo/frontier_exploration/devel/etc/catkin/profile.d/25.turtlebot-gazebo.sh
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_gazebo/lib/pkgconfig/turtlebot_gazebo.pc /frontier_expo/frontier_exploration/devel/lib/pkgconfig/turtlebot_gazebo.pc
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_gazebo/share/turtlebot_gazebo/cmake/turtlebot_gazeboConfig-version.cmake /frontier_expo/frontier_exploration/devel/share/turtlebot_gazebo/cmake/turtlebot_gazeboConfig-version.cmake
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_gazebo/share/turtlebot_gazebo/cmake/turtlebot_gazeboConfig.cmake /frontier_expo/frontier_exploration/devel/share/turtlebot_gazebo/cmake/turtlebot_gazeboConfig.cmake

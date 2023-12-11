@@ -1,4 +1,4 @@
-prefix=/frontier_expo/frontier_exploration/install
+prefix=/home/ekin/frontier_exploration/install
 
 Name: rosbot_gazebo
 Description: Description of rosbot_gazebo

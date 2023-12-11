@@ -1,5 +1,0 @@
-[35m[1mScanning dependencies of target yocs_safety_controller_nodelet[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/yocs_safety_controller_nodelet.dir/src/library.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/yocs_safety_controller_nodelet.dir/src/nodelet.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library /frontier_expo/frontier_exploration/devel/.private/yocs_safety_controller/lib/libyocs_safety_controller_nodelet.so[0m
-[100%] Built target yocs_safety_controller_nodelet

@@ -1,1 +1,1 @@
-/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/share/gennodejs/ros/rosbot_ekf/_index.js
+/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/share/gennodejs/ros/rosbot_ekf/_index.js

@@ -1,1 +1,0 @@
-/frontier_expo/frontier_exploration/devel/.private/kobuki_safety_controller/lib/pkgconfig/kobuki_safety_controller.pc

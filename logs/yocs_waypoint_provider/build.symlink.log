@@ -1,6 +1,0 @@
-Symlinking /frontier_expo/frontier_exploration/devel/lib/libwaypoint_provider_yaml_parser_lib.so
-Symlinking /frontier_expo/frontier_exploration/devel/lib/libwaypoint_provider_lib.so
-Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/yocs_waypoint_provider.pc
-Symlinking /frontier_expo/frontier_exploration/devel/lib/yocs_waypoint_provider/waypoint_provider
-Symlinking /frontier_expo/frontier_exploration/devel/share/yocs_waypoint_provider/cmake/yocs_waypoint_providerConfig.cmake
-Symlinking /frontier_expo/frontier_exploration/devel/share/yocs_waypoint_provider/cmake/yocs_waypoint_providerConfig-version.cmake

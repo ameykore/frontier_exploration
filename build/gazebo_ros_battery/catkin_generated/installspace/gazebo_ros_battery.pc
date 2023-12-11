@@ -1,4 +1,4 @@
-prefix=/frontier_expo/frontier_exploration/install
+prefix=/home/ekin/frontier_exploration/install
 
 Name: gazebo_ros_battery
 Description: Description of gazebo_ros_battery

@@ -1,2 +1,0 @@
-turtlebot_simulator/turtlebot_simulator
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_simulator/cmake.lock /frontier_expo/frontier_exploration/devel/./cmake.lock

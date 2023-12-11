@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/frontier_expo/frontier_exploration/src/m-explore/map_merge/include/combine_grids/merging_pipeline.h
+/home/ekin/frontier_exploration/src/m-explore/map_merge/include/combine_grids/merging_pipeline.h
 vector
 -
 geometry_msgs/Transform.h
@@ -16,7 +16,7 @@ nav_msgs/OccupancyGrid.h
 opencv2/core/utility.hpp
 -
 
-/frontier_expo/frontier_exploration/src/m-explore/map_merge/include/map_merge/map_merge.h
+/home/ekin/frontier_exploration/src/m-explore/map_merge/include/map_merge/map_merge.h
 atomic
 -
 forward_list
@@ -38,7 +38,7 @@ ros/ros.h
 boost/thread.hpp
 -
 
-/frontier_expo/frontier_exploration/src/m-explore/map_merge/src/map_merge.cpp
+/home/ekin/frontier_exploration/src/m-explore/map_merge/src/map_merge.cpp
 thread
 -
 map_merge/map_merge.h

@@ -1,1 +1,1 @@
-/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/share/rosbot_ekf/cmake/rosbot_ekfConfig-version.cmake
+/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/share/rosbot_ekf/cmake/rosbot_ekfConfig-version.cmake

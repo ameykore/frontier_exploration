@@ -1,8 +1,0 @@
-prefix=/frontier_expo/frontier_exploration/devel/.private/kobuki_keyop
-
-Name: kobuki_keyop
-Description: Description of kobuki_keyop
-Version: 0.7.6
-Cflags: -I/frontier_expo/frontier_exploration/src/kobuki/kobuki_keyop/include
-Libs: -L${prefix}/lib -lkobuki
-Requires: geometry_msgs std_srvs std_msgs roscpp ecl_exceptions ecl_threads ecl_time kobuki_msgs

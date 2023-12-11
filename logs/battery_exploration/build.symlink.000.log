@@ -1,3 +1,3 @@
-Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/battery_exploration.pc
-Symlinking /frontier_expo/frontier_exploration/devel/share/battery_exploration/cmake/battery_explorationConfig-version.cmake
-Symlinking /frontier_expo/frontier_exploration/devel/share/battery_exploration/cmake/battery_explorationConfig.cmake
+Symlinking /home/ekin/frontier_exploration/devel/lib/pkgconfig/battery_exploration.pc
+Symlinking /home/ekin/frontier_exploration/devel/share/battery_exploration/cmake/battery_explorationConfig.cmake
+Symlinking /home/ekin/frontier_exploration/devel/share/battery_exploration/cmake/battery_explorationConfig-version.cmake

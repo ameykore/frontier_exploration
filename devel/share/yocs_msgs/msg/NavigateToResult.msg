@@ -1,1 +1,0 @@
-/frontier_expo/frontier_exploration/devel/.private/yocs_msgs/share/yocs_msgs/msg/NavigateToResult.msg

@@ -1,6 +1,0 @@
-turtlebot/turtlebot_bringup
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_bringup/cmake.lock /frontier_expo/frontier_exploration/devel/./cmake.lock
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_bringup/etc/catkin/profile.d/25.turtlebot.sh /frontier_expo/frontier_exploration/devel/etc/catkin/profile.d/25.turtlebot.sh
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_bringup/lib/pkgconfig/turtlebot_bringup.pc /frontier_expo/frontier_exploration/devel/lib/pkgconfig/turtlebot_bringup.pc
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_bringup/share/turtlebot_bringup/cmake/turtlebot_bringupConfig.cmake /frontier_expo/frontier_exploration/devel/share/turtlebot_bringup/cmake/turtlebot_bringupConfig.cmake
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_bringup/share/turtlebot_bringup/cmake/turtlebot_bringupConfig-version.cmake /frontier_expo/frontier_exploration/devel/share/turtlebot_bringup/cmake/turtlebot_bringupConfig-version.cmake

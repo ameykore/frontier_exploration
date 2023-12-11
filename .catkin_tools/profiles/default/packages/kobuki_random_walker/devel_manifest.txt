@@ -1,6 +1,0 @@
-kobuki/kobuki_random_walker
-/frontier_expo/frontier_exploration/devel/.private/kobuki_random_walker/cmake.lock /frontier_expo/frontier_exploration/devel/./cmake.lock
-/frontier_expo/frontier_exploration/devel/.private/kobuki_random_walker/lib/libkobuki_random_walker_nodelet.so /frontier_expo/frontier_exploration/devel/lib/libkobuki_random_walker_nodelet.so
-/frontier_expo/frontier_exploration/devel/.private/kobuki_random_walker/lib/pkgconfig/kobuki_random_walker.pc /frontier_expo/frontier_exploration/devel/lib/pkgconfig/kobuki_random_walker.pc
-/frontier_expo/frontier_exploration/devel/.private/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig-version.cmake /frontier_expo/frontier_exploration/devel/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig-version.cmake
-/frontier_expo/frontier_exploration/devel/.private/kobuki_random_walker/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig.cmake /frontier_expo/frontier_exploration/devel/share/kobuki_random_walker/cmake/kobuki_random_walkerConfig.cmake

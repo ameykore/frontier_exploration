@@ -1,1 +1,0 @@
-/frontier_expo/frontier_exploration/devel/.private/yocs_msgs/share/roseus/ros/yocs_msgs/msg/LocalizeActionGoal.l

@@ -1,1 +1,0 @@
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_bringup/lib/pkgconfig/turtlebot_bringup.pc

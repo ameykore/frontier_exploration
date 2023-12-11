@@ -1,4 +1,4 @@
-prefix=/frontier_expo/frontier_exploration/devel/.private/rosbot_description
+prefix=/home/ekin/frontier_exploration/devel/.private/rosbot_description
 
 Name: rosbot_description
 Description: Description of rosbot_description

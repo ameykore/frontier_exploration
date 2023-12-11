@@ -1,1 +1,0 @@
-/frontier_expo/frontier_exploration/devel/.private/yocs_ar_pair_approach/lib/pkgconfig/yocs_ar_pair_approach.pc

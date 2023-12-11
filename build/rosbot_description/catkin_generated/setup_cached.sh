@@ -7,10 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/frontier_expo/frontier_exploration/devel/.private/rosbot_description:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/frontier_expo/frontier_exploration/devel/.private/rosbot_description/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/frontier_expo/frontier_exploration/devel/.private/rosbot_description/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/frontier_expo/frontier_exploration/build/rosbot_description'
-export PYTHONPATH="/frontier_expo/frontier_exploration/devel/.private/rosbot_description/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/frontier_expo/frontier_exploration/devel/.private/rosbot_description/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/frontier_expo/frontier_exploration/src/rosbot_description/src/rosbot_description:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/ekin/frontier_exploration/devel/.private/rosbot_description:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/ekin/frontier_exploration/devel/.private/rosbot_description/lib:$LD_LIBRARY_PATH"
+export PWD='/home/ekin/frontier_exploration/build/rosbot_description'
+export PYTHONPATH="/home/ekin/frontier_exploration/devel/.private/rosbot_description/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/ekin/frontier_exploration/devel/.private/rosbot_description/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/ekin/frontier_exploration/src/rosbot_description/src/rosbot_description:$ROS_PACKAGE_PATH"

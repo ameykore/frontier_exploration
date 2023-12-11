@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/frontier_expo/frontier_exploration/src/rosbot_ekf/src/move_base_ws2812b_example.cpp" "/frontier_expo/frontier_exploration/build/rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/src/move_base_ws2812b_example.cpp.o"
+  "/home/ekin/frontier_exploration/src/rosbot_ekf/src/move_base_ws2812b_example.cpp" "/home/ekin/frontier_exploration/build/rosbot_ekf/CMakeFiles/move_base_ws2812b_example.dir/src/move_base_ws2812b_example.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/include"
-  "/frontier_expo/frontier_exploration/src/rosbot_ekf/include"
+  "/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/include"
+  "/home/ekin/frontier_exploration/src/rosbot_ekf/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

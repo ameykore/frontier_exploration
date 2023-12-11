@@ -1,1 +1,0 @@
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_stage/etc/catkin/profile.d/25.turtlebot-stage.sh

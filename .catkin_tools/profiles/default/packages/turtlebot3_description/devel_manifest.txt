@@ -1,5 +1,0 @@
-turtlebot3/turtlebot3_description
-/frontier_expo/frontier_exploration/devel/.private/turtlebot3_description/cmake.lock /frontier_expo/frontier_exploration/devel/./cmake.lock
-/frontier_expo/frontier_exploration/devel/.private/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc /frontier_expo/frontier_exploration/devel/lib/pkgconfig/turtlebot3_description.pc
-/frontier_expo/frontier_exploration/devel/.private/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake /frontier_expo/frontier_exploration/devel/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
-/frontier_expo/frontier_exploration/devel/.private/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake /frontier_expo/frontier_exploration/devel/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake

@@ -1,1 +1,0 @@
-/frontier_expo/frontier_exploration/devel/.private/turtlebot_description/lib/pkgconfig/turtlebot_description.pc

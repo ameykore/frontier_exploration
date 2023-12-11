@@ -1,1 +1,0 @@
-/frontier_expo/frontier_exploration/devel/.private/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingAction.msg
