@@ -52,3 +52,6 @@
 [submodule "src/rplidar_ros"]
 	path = src/rplidar_ros
 	url = https://github.com/Slamtec/rplidar_ros.git
+[submodule "src/gazebo_ros_battery"]
+	path = src/gazebo_ros_battery
+	url = https://github.com/nilseuropa/gazebo_ros_battery.git
