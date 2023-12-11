@@ -11,6 +11,10 @@
   <xacro:include filename="$(find rosbot_description)/urdf/materials.xacro" />
   <xacro:include filename="$(find rosbot_description)/urdf/rosbot.gazebo" />
 
+  <xacro:include filename="$(find gazebo_ros_battery)/xacro/battery.xacro"/>
+  <xacro:battery sensor_name="battery" frame_id="battery_link" 
+                 params_yaml="$(find gazebo_ros_battery)/params/G24B4.yaml"/>
+
   <link name="base_link"></link> 
   <joint name="base_link_joint" type="fixed">
     <origin xyz="0 0 0" rpy="0 0 0"/>
