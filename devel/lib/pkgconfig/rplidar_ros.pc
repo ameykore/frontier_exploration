@@ -1,1 +1,1 @@
-/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/pkgconfig/rplidar_ros.pc
+/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/pkgconfig/rplidar_ros.pc

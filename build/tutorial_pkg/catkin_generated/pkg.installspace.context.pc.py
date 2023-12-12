@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "tutorial_pkg"
-PROJECT_SPACE_DIR = "/home/ekin/frontier_exploration/install"
+PROJECT_SPACE_DIR = "/frontier_expo/frontier_exploration/install"
 PROJECT_VERSION = "1.0.0"

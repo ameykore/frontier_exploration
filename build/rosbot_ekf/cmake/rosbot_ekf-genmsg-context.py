@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv"
+services_str = "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv"
 pkg_name = "rosbot_ekf"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/ekin/frontier_exploration/devel/.private/rosbot_navigation/setup.sh
+    local-name: /frontier_expo/frontier_exploration/devel/.private/rosbot_navigation/setup.sh

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/gazebo_ros_battery
+CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/gazebo_ros_battery
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/gazebo_ros_battery
+CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/gazebo_ros_battery
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/ekin/frontier_exploration/build/gazebo_ros_battery && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ekin/frontier_exploration/src/gazebo_ros_battery /home/ekin/frontier_exploration/src/gazebo_ros_battery /home/ekin/frontier_exploration/build/gazebo_ros_battery /home/ekin/frontier_exploration/build/gazebo_ros_battery /home/ekin/frontier_exploration/build/gazebo_ros_battery/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /frontier_expo/frontier_exploration/build/gazebo_ros_battery && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /frontier_expo/frontier_exploration/src/gazebo_ros_battery /frontier_expo/frontier_exploration/src/gazebo_ros_battery /frontier_expo/frontier_exploration/build/gazebo_ros_battery /frontier_expo/frontier_exploration/build/gazebo_ros_battery /frontier_expo/frontier_exploration/build/gazebo_ros_battery/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

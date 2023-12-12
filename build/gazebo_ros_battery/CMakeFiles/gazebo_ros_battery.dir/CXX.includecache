@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/Reset.h
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/Reset.h
 ros/service_traits.h
 -
 gazebo_ros_battery/ResetRequest.h
@@ -14,7 +14,7 @@ gazebo_ros_battery/ResetRequest.h
 gazebo_ros_battery/ResetResponse.h
 -
 
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/ResetRequest.h
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/ResetRequest.h
 string
 -
 vector
@@ -32,7 +32,7 @@ ros/message_operations.h
 std_msgs/Bool.h
 -
 
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/ResetResponse.h
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/ResetResponse.h
 string
 -
 vector
@@ -50,7 +50,7 @@ ros/message_operations.h
 std_msgs/Bool.h
 -
 
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/SetCharge.h
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/SetCharge.h
 ros/service_traits.h
 -
 gazebo_ros_battery/SetChargeRequest.h
@@ -58,7 +58,7 @@ gazebo_ros_battery/SetChargeRequest.h
 gazebo_ros_battery/SetChargeResponse.h
 -
 
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/SetChargeRequest.h
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/SetChargeRequest.h
 string
 -
 vector
@@ -76,7 +76,7 @@ ros/message_operations.h
 std_msgs/Float32.h
 -
 
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/SetChargeResponse.h
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/SetChargeResponse.h
 string
 -
 vector
@@ -94,7 +94,7 @@ ros/message_operations.h
 std_msgs/Bool.h
 -
 
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/SetTemperature.h
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/SetTemperature.h
 ros/service_traits.h
 -
 gazebo_ros_battery/SetTemperatureRequest.h
@@ -102,7 +102,7 @@ gazebo_ros_battery/SetTemperatureRequest.h
 gazebo_ros_battery/SetTemperatureResponse.h
 -
 
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/SetTemperatureRequest.h
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/SetTemperatureRequest.h
 string
 -
 vector
@@ -120,7 +120,7 @@ ros/message_operations.h
 std_msgs/Float32.h
 -
 
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/SetTemperatureResponse.h
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/SetTemperatureResponse.h
 string
 -
 vector
@@ -138,7 +138,7 @@ ros/message_operations.h
 std_msgs/Float32.h
 -
 
-/home/ekin/frontier_exploration/src/gazebo_ros_battery/include/gazebo_ros_battery/gazebo_ros_battery.h
+/frontier_expo/frontier_exploration/src/gazebo_ros_battery/include/gazebo_ros_battery/gazebo_ros_battery.h
 map
 -
 gazebo/common/common.hh
@@ -166,7 +166,7 @@ gazebo_ros_battery/SetCharge.h
 gazebo_ros_battery/Reset.h
 -
 
-/home/ekin/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery.cpp
+/frontier_expo/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery.cpp
 algorithm
 -
 assert.h
@@ -176,7 +176,7 @@ sdf/sdf.hh
 ros/ros.h
 -
 gazebo_ros_battery/gazebo_ros_battery.h
-/home/ekin/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery/gazebo_ros_battery.h
+/frontier_expo/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery/gazebo_ros_battery.h
 
 /opt/ros/noetic/include/gazebo_plugins/gazebo_ros_utils.h
 map

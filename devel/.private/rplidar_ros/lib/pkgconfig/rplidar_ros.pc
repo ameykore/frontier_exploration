@@ -1,4 +1,4 @@
-prefix=/home/ekin/frontier_exploration/devel/.private/rplidar_ros
+prefix=/frontier_expo/frontier_exploration/devel/.private/rplidar_ros
 
 Name: rplidar_ros
 Description: Description of rplidar_ros

@@ -1,4 +1,4 @@
-prefix=/home/ekin/frontier_exploration/devel/.private/tutorial_pkg
+prefix=/frontier_expo/frontier_exploration/devel/.private/tutorial_pkg
 
 Name: tutorial_pkg
 Description: Description of tutorial_pkg

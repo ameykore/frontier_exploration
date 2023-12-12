@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ekin/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/drive_controller_node"
-  "/home/ekin/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/drive_controller_node.pdb"
+  "/frontier_expo/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/drive_controller_node"
+  "/frontier_expo/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/drive_controller_node.pdb"
   "CMakeFiles/drive_controller_node.dir/src/drive_controller.cpp.o"
 )
 

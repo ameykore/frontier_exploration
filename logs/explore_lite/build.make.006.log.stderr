@@ -1,3 +1,0 @@
-[01m[K/home/ekin/frontier_exploration/src/m-explore/explore/src/explore.cpp:234:16:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
-  234 |   std::cout << [01;35m[K'Enter:'[m[K;
-      |                [01;35m[K^~~~~~~~[m[K

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/ekin/frontier_exploration/build/multirobot_map_merge")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/frontier_expo/frontier_exploration/build/multirobot_map_merge")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

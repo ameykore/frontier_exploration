@@ -1,4 +1,4 @@
-Linked: (/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore, /home/ekin/frontier_exploration/devel/lib/explore_lite/explore)
-Linked: (/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/pkgconfig/explore_lite.pc, /home/ekin/frontier_exploration/devel/lib/pkgconfig/explore_lite.pc)
-Linked: (/home/ekin/frontier_exploration/devel/.private/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake, /home/ekin/frontier_exploration/devel/share/explore_lite/cmake/explore_liteConfig.cmake)
-Linked: (/home/ekin/frontier_exploration/devel/.private/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake, /home/ekin/frontier_exploration/devel/share/explore_lite/cmake/explore_liteConfig-version.cmake)
+Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/explore_lite.pc
+Symlinking /frontier_expo/frontier_exploration/devel/lib/explore_lite/explore
+Symlinking /frontier_expo/frontier_exploration/devel/share/explore_lite/cmake/explore_liteConfig-version.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/share/explore_lite/cmake/explore_liteConfig.cmake

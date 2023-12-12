@@ -1,1 +1,1 @@
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/pkgconfig/explore_lite.pc
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/pkgconfig/explore_lite.pc

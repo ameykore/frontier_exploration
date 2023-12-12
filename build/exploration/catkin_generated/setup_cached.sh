@@ -7,9 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ekin/frontier_exploration/devel/.private/exploration:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/ekin/frontier_exploration/devel/.private/exploration/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/ekin/frontier_exploration/devel/.private/exploration/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/ekin/frontier_exploration/build/exploration'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ekin/frontier_exploration/devel/.private/exploration/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ekin/frontier_exploration/src/exploration:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/frontier_expo/frontier_exploration/devel/.private/exploration:$CMAKE_PREFIX_PATH"
+export PWD='/frontier_expo/frontier_exploration/build/exploration'
+export PYTHONPATH="/frontier_expo/frontier_exploration/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/frontier_expo/frontier_exploration/devel/.private/exploration/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/frontier_expo/frontier_exploration/src/exploration:$ROS_PACKAGE_PATH"

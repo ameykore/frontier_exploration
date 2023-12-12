@@ -1,1 +1,1 @@
-/home/ekin/frontier_exploration/devel/.private/battery_exploration/lib/pkgconfig/battery_exploration.pc
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/pkgconfig/battery_exploration.pc

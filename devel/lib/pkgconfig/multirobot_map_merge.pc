@@ -1,1 +1,1 @@
-/home/ekin/frontier_exploration/devel/.private/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc
+/frontier_expo/frontier_exploration/devel/.private/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc
