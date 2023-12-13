@@ -5,3 +5,5 @@
 ### Source your workspace: source devel/setup.bash
 ### After build successful run  ``` roslaunch rosbot_description rosbot_rviz_gmapping.launch ```
 ### Note: If you use catkin_make to create your workspace, then use catkin_make, NOT catkin_build.
+
+### add_battery_station.py -> place cyclinders to known position and these cyclinders presents the battery stations to charge robot. 
