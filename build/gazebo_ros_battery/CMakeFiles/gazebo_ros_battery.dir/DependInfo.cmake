@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/frontier_expo/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery.cpp" "/frontier_expo/frontier_exploration/build/gazebo_ros_battery/CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.o"
+  "/home/ekin/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery.cpp" "/home/ekin/frontier_exploration/build/gazebo_ros_battery/CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -30,8 +30,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/include"
-  "/frontier_expo/frontier_exploration/src/gazebo_ros_battery/include"
+  "/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/include"
+  "/home/ekin/frontier_exploration/src/gazebo_ros_battery/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/gazebo-11"
   "/usr/include/bullet"

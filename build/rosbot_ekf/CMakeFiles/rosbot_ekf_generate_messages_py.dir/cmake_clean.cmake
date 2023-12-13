@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/lib/python3/dist-packages/rosbot_ekf/srv/_Configuration.py"
-  "/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/lib/python3/dist-packages/rosbot_ekf/srv/__init__.py"
+  "/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/lib/python3/dist-packages/rosbot_ekf/srv/_Configuration.py"
+  "/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/lib/python3/dist-packages/rosbot_ekf/srv/__init__.py"
   "CMakeFiles/rosbot_ekf_generate_messages_py"
 )
 

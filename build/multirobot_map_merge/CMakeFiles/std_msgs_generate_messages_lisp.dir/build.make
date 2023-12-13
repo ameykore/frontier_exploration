@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/m-explore/map_merge
+CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/m-explore/map_merge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/multirobot_map_merge
+CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/multirobot_map_merge
 
 # Utility rule file for std_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_lisp.dir/depend:
-	cd /frontier_expo/frontier_exploration/build/multirobot_map_merge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /frontier_expo/frontier_exploration/src/m-explore/map_merge /frontier_expo/frontier_exploration/src/m-explore/map_merge /frontier_expo/frontier_exploration/build/multirobot_map_merge /frontier_expo/frontier_exploration/build/multirobot_map_merge /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ekin/frontier_exploration/build/multirobot_map_merge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ekin/frontier_exploration/src/m-explore/map_merge /home/ekin/frontier_exploration/src/m-explore/map_merge /home/ekin/frontier_exploration/build/multirobot_map_merge /home/ekin/frontier_exploration/build/multirobot_map_merge /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles/std_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 

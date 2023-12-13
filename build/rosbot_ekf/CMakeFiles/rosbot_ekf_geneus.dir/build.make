@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/rosbot_ekf
+CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/rosbot_ekf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/rosbot_ekf
+CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/rosbot_ekf
 
 # Utility rule file for rosbot_ekf_geneus.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosbot_ekf_geneus.dir/clean:
 .PHONY : CMakeFiles/rosbot_ekf_geneus.dir/clean
 
 CMakeFiles/rosbot_ekf_geneus.dir/depend:
-	cd /frontier_expo/frontier_exploration/build/rosbot_ekf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /frontier_expo/frontier_exploration/src/rosbot_ekf /frontier_expo/frontier_exploration/src/rosbot_ekf /frontier_expo/frontier_exploration/build/rosbot_ekf /frontier_expo/frontier_exploration/build/rosbot_ekf /frontier_expo/frontier_exploration/build/rosbot_ekf/CMakeFiles/rosbot_ekf_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ekin/frontier_exploration/build/rosbot_ekf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ekin/frontier_exploration/src/rosbot_ekf /home/ekin/frontier_exploration/src/rosbot_ekf /home/ekin/frontier_exploration/build/rosbot_ekf /home/ekin/frontier_exploration/build/rosbot_ekf /home/ekin/frontier_exploration/build/rosbot_ekf/CMakeFiles/rosbot_ekf_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosbot_ekf_geneus.dir/depend
 

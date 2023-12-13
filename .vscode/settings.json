@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ekin/frontier_exploration/devel/lib/python3/dist-packages",
+        "/home/ekin/catkintut_ws/devel/lib/python3/dist-packages",
+        "/home/ekin/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ekin/frontier_exploration/devel/lib/python3/dist-packages",
+        "/home/ekin/catkintut_ws/devel/lib/python3/dist-packages",
+        "/home/ekin/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/lib/rosbot_ekf/msgs_conversion"
-  "/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/lib/rosbot_ekf/msgs_conversion.pdb"
+  "/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/lib/rosbot_ekf/msgs_conversion"
+  "/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/lib/rosbot_ekf/msgs_conversion.pdb"
   "CMakeFiles/msgs_conversion.dir/src/msgs_conversion.cpp.o"
 )
 

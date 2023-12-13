@@ -1,4 +1,4 @@
-prefix=/frontier_expo/frontier_exploration/devel/.private/explore_lite
+prefix=/home/ekin/frontier_exploration/devel/.private/explore_lite
 
 Name: explore_lite
 Description: Description of explore_lite

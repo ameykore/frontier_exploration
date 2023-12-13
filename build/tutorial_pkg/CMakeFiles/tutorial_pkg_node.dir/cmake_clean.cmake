@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/frontier_expo/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/tutorial_pkg_node"
-  "/frontier_expo/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/tutorial_pkg_node.pdb"
+  "/home/ekin/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/tutorial_pkg_node"
+  "/home/ekin/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/tutorial_pkg_node.pdb"
   "CMakeFiles/tutorial_pkg_node.dir/src/tutorial_pkg_node.cpp.o"
 )
 
