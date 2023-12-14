@@ -19,17 +19,18 @@ def simulate_degrading_battery(V0, alpha, Q, R, simulation_duration):
     print(f"Time\t\tVoltage")
     print("--------------------")
 
-    start_time = time.time()
+    start_time = rospy.Time.now()
 
-    while time.time() - start_time < simulation_duration:
-        print(f"{time.time() - start_time:.2f}s\t\t{V:.2f}V")
-        
-        i = 0.4  # Example current drawn [A]
-        
-        # Update the accumulated discharge
-        current_capacity += i * (time.time() - start_time)
+    while rospy.Time.now() - start_time < rospy.Duration.from_sec(simulation_duration):
+        print(f"{(rospy.Time.now() - start_time).to_sec():.2f}s\t\t{V:.2f}V")
 
-        # Update the battery voltage using the provided model
+        # Simulate current drawn (replace with your own current profile)
+        i = 0.1  # Example current drawn [A]
+
+        # Update accumulated discharge
+        current_capacity += i * (rospy.Time.now() - start_time).to_sec()
+
+        # Update battery voltage using the provided model
         V = V0 + alpha * (1 - current_capacity / Q) - R * i
 
         return V
@@ -48,6 +49,7 @@ def feedback_callback(feedback):
     if battery_voltage > 0:
         # print("Battery is not at zero")
         battery_voltage = simulate_degrading_battery(battery_voltage, alpha, Q, R, simulation_duration)  # Adjust this value as needed
+        # battery_voltage -= 0.001
     else:
         print("Battery is at zero")
         battery_voltage = 0

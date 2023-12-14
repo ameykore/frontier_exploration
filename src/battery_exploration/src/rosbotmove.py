@@ -7,7 +7,7 @@ from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal, MoveBaseActionFeedb
 
 # Constants
 position = 0
-voltage = 10
+voltage = 0
 
 def battery_feedback(battery):
     global voltage
