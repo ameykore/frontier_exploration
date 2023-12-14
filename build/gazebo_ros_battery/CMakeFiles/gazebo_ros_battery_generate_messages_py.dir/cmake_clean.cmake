@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/python3/dist-packages/gazebo_ros_battery/srv/_Reset.py"
-  "/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/python3/dist-packages/gazebo_ros_battery/srv/_SetCharge.py"
-  "/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/python3/dist-packages/gazebo_ros_battery/srv/_SetTemperature.py"
-  "/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/python3/dist-packages/gazebo_ros_battery/srv/__init__.py"
+  "/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/python3/dist-packages/gazebo_ros_battery/srv/_Reset.py"
+  "/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/python3/dist-packages/gazebo_ros_battery/srv/_SetCharge.py"
+  "/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/python3/dist-packages/gazebo_ros_battery/srv/_SetTemperature.py"
+  "/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/python3/dist-packages/gazebo_ros_battery/srv/__init__.py"
   "CMakeFiles/gazebo_ros_battery_generate_messages_py"
 )
 

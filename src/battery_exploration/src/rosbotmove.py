@@ -14,34 +14,44 @@ def battery_feedback(battery):
     print(f"Received battery voltage: {battery.data}")
     voltage = battery.data
     rate = rospy.Rate(10)  # 10hz
-    while voltage <= 1.0:
+    while voltage <= 4.0:
         print("Low battery")
         movebase_client()
         rate.sleep()
 
-def feedback_callback(feedback):
+def station_goal(feedback):
     global position
-    position = feedback.feedback.base_position.pose
+    position = feedback.data
 
 def movebase_client():
     global position
+    global voltage
 
     client = actionlib.SimpleActionClient('move_base', MoveBaseAction)
     client.wait_for_server()
 
     goal = MoveBaseGoal()
     goal.target_pose.header.frame_id = "map"
-    goal.target_pose.pose = position
+    goal.target_pose.pose.position.x = position[0]
+    goal.target_pose.pose.position.y = position[1]
+    goal.target_pose.pose.orientation.w = 1
 
     client.send_goal(goal)
     client.wait_for_result()
+
+    # Check the result status
+    result = client.get_result()
+    if result:
+        rospy.loginfo("Robot reached the goal!")
+        rospy.loginfo("Charging...")
+
 
 def receiver():
     global voltage
 
     rospy.init_node('battery_receiver', anonymous=True)
     rospy.Subscriber("Battery/voltage", msg.Float32, battery_feedback)
-    rospy.Subscriber("move_base/feedback", MoveBaseActionFeedback, feedback_callback)
+    rospy.Subscriber("battery_location", msg.Float32MultiArray, station_goal)
 
     # Continue listening until the node is shut down
     rospy.spin()

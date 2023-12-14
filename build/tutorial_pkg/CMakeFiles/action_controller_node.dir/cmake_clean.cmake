@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ekin/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/action_controller_node"
-  "/home/ekin/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/action_controller_node.pdb"
+  "/frontier_expo/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/action_controller_node"
+  "/frontier_expo/frontier_exploration/devel/.private/tutorial_pkg/lib/tutorial_pkg/action_controller_node.pdb"
   "CMakeFiles/action_controller_node.dir/src/action_controller.cpp.o"
 )
 

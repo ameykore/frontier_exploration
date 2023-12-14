@@ -1,6 +1,6 @@
-Symlinking /home/ekin/frontier_exploration/devel/lib/tutorial_pkg/drive_controller_node
-Symlinking /home/ekin/frontier_exploration/devel/lib/tutorial_pkg/action_controller_node
-Symlinking /home/ekin/frontier_exploration/devel/lib/tutorial_pkg/tutorial_pkg_node
-Symlinking /home/ekin/frontier_exploration/devel/lib/pkgconfig/tutorial_pkg.pc
-Symlinking /home/ekin/frontier_exploration/devel/share/tutorial_pkg/cmake/tutorial_pkgConfig-version.cmake
-Symlinking /home/ekin/frontier_exploration/devel/share/tutorial_pkg/cmake/tutorial_pkgConfig.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/lib/tutorial_pkg/drive_controller_node
+Symlinking /frontier_expo/frontier_exploration/devel/lib/tutorial_pkg/tutorial_pkg_node
+Symlinking /frontier_expo/frontier_exploration/devel/lib/tutorial_pkg/action_controller_node
+Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/tutorial_pkg.pc
+Symlinking /frontier_expo/frontier_exploration/devel/share/tutorial_pkg/cmake/tutorial_pkgConfig.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/share/tutorial_pkg/cmake/tutorial_pkgConfig-version.cmake

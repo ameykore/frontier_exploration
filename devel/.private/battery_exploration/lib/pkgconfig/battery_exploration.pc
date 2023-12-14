@@ -1,8 +1,8 @@
-prefix=/home/ekin/frontier_exploration/devel/.private/battery_exploration
+prefix=/frontier_expo/frontier_exploration/devel/.private/battery_exploration
 
 Name: battery_exploration
 Description: Description of battery_exploration
 Version: 0.0.0
-Cflags: 
+Cflags: -I/frontier_expo/frontier_exploration/devel/.private/battery_exploration/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: message_runtime

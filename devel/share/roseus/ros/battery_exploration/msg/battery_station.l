@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/msg/battery_station.l

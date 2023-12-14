@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/gazebo_ros_battery
+CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/gazebo_ros_battery
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/gazebo_ros_battery
+CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/gazebo_ros_battery
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gazebo_ros_battery.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/gazebo_ros_battery.dir/progress.make
 include CMakeFiles/gazebo_ros_battery.dir/flags.make
 
 CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.o: CMakeFiles/gazebo_ros_battery.dir/flags.make
-CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.o: /home/ekin/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ekin/frontier_exploration/build/gazebo_ros_battery/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.o -c /home/ekin/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery.cpp
+CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.o: /frontier_expo/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/frontier_expo/frontier_exploration/build/gazebo_ros_battery/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.o -c /frontier_expo/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery.cpp
 
 CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ekin/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery.cpp > CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /frontier_expo/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery.cpp > CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.i
 
 CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ekin/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery.cpp -o CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /frontier_expo/frontier_exploration/src/gazebo_ros_battery/src/gazebo_ros_battery.cpp -o CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.s
 
 # Object files for target gazebo_ros_battery
 gazebo_ros_battery_OBJECTS = \
@@ -77,122 +77,122 @@ gazebo_ros_battery_OBJECTS = \
 # External object files for target gazebo_ros_battery
 gazebo_ros_battery_EXTERNAL_OBJECTS =
 
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.o
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: CMakeFiles/gazebo_ros_battery.dir/build.make
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so.3.6
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libdart.so.6.9.2
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libsdformat9.so.9.8.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libignition-common3-graphics.so.3.14.2
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libnodeletlib.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libbondcpp.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libroslib.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/librospack.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libroscpp.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/librosconsole.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/librostime.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libSimTKmath.so.3.6
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so.3.6
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libblas.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/liblapack.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libblas.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/liblapack.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.9.2
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libccd.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libfcl.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libassimp.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/liboctomap.so.1.9.8
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/liboctomath.so.1.9.8
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libignition-transport8.so.8.3.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libignition-fuel_tools4.so.4.6.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libignition-msgs5.so.5.10.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.15.0
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libignition-common3.so.3.14.2
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: CMakeFiles/gazebo_ros_battery.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ekin/frontier_exploration/build/gazebo_ros_battery/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so"
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.o
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: CMakeFiles/gazebo_ros_battery.dir/build.make
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libSimTKsimbody.so.3.6
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libdart.so.6.9.2
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_client.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_gui.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_sensors.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_rendering.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_physics.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_ode.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_transport.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_msgs.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_util.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_common.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_gimpact.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_opcode.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libsdformat9.so.9.8.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libOgrePaging.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libignition-common3-graphics.so.3.14.2
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libnodeletlib.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libbondcpp.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libclass_loader.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libroslib.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/librospack.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libroscpp.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/librosconsole.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/librostime.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/libcpp_common.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libSimTKmath.so.3.6
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libSimTKcommon.so.3.6
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libblas.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/liblapack.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libblas.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/liblapack.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.9.2
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libccd.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libfcl.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libassimp.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/liboctomap.so.1.9.8
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /opt/ros/noetic/lib/liboctomath.so.1.9.8
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libignition-transport8.so.8.3.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libignition-fuel_tools4.so.4.6.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libignition-msgs5.so.5.10.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.15.0
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libignition-common3.so.3.14.2
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so: CMakeFiles/gazebo_ros_battery.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/frontier_expo/frontier_exploration/build/gazebo_ros_battery/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gazebo_ros_battery.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/gazebo_ros_battery.dir/build: /home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so
+CMakeFiles/gazebo_ros_battery.dir/build: /frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so
 
 .PHONY : CMakeFiles/gazebo_ros_battery.dir/build
 
@@ -201,6 +201,6 @@ CMakeFiles/gazebo_ros_battery.dir/clean:
 .PHONY : CMakeFiles/gazebo_ros_battery.dir/clean
 
 CMakeFiles/gazebo_ros_battery.dir/depend:
-	cd /home/ekin/frontier_exploration/build/gazebo_ros_battery && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ekin/frontier_exploration/src/gazebo_ros_battery /home/ekin/frontier_exploration/src/gazebo_ros_battery /home/ekin/frontier_exploration/build/gazebo_ros_battery /home/ekin/frontier_exploration/build/gazebo_ros_battery /home/ekin/frontier_exploration/build/gazebo_ros_battery/CMakeFiles/gazebo_ros_battery.dir/DependInfo.cmake --color=$(COLOR)
+	cd /frontier_expo/frontier_exploration/build/gazebo_ros_battery && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /frontier_expo/frontier_exploration/src/gazebo_ros_battery /frontier_expo/frontier_exploration/src/gazebo_ros_battery /frontier_expo/frontier_exploration/build/gazebo_ros_battery /frontier_expo/frontier_exploration/build/gazebo_ros_battery /frontier_expo/frontier_exploration/build/gazebo_ros_battery/CMakeFiles/gazebo_ros_battery.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gazebo_ros_battery.dir/depend
 

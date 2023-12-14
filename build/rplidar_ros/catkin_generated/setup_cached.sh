@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ekin/frontier_exploration/devel/.private/rplidar_ros:$CMAKE_PREFIX_PATH"
-export PWD='/home/ekin/frontier_exploration/build/rplidar_ros'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ekin/frontier_exploration/devel/.private/rplidar_ros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ekin/frontier_exploration/src/rplidar_ros:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/frontier_expo/frontier_exploration/devel/.private/rplidar_ros:$CMAKE_PREFIX_PATH"
+export PWD='/frontier_expo/frontier_exploration/build/rplidar_ros'
+export ROSLISP_PACKAGE_DIRECTORIES="/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/frontier_expo/frontier_exploration/src/rplidar_ros:$ROS_PACKAGE_PATH"

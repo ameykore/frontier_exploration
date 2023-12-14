@@ -4,13 +4,16 @@ import rospy
 import math
 import std_msgs.msg as msg
 from std_msgs.msg import Float32MultiArray
-from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal, MoveBaseActionFeedback
-from gazebo_msgs.msg import ModelState
-from gazebo_msgs.srv import SpawnModel, SpawnModelRequest
+from battery_exploration.msg import battery_station
+from move_base_msgs.msg import MoveBaseActionFeedback
+
 
 # Constants
 position = None
 battery_locations = [[0.0,0.0],[-2.0,-3.0],[2.0,-4.0],[2.0,-1.0],[-2.0,2.0],[1.0,3.0]]
+
+#msg instance
+ros_msg = battery_station()
 
 def calculate_distance(x1, y1, x2, y2):
     ans = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
@@ -31,10 +34,17 @@ def find_nearest_station(rosbot_position, charging_stations):
     return nearest_station
 
 def publish_battery_location(location):
-    pub = rospy.Publisher('battery_location', Float32MultiArray, queue_size=10)
-
-    msg = Float32MultiArray(data=location)
-    pub.publish(msg)
+    global position
+    pub = rospy.Publisher('battery_location', battery_station, queue_size=10)
+    ros_msg.x = location[0]
+    ros_msg.y = location[1]
+    ros_msg.z = position.position.z
+    ros_msg.orientation_x = position.orientation.x
+    ros_msg.orientation_y = position.orientation.y
+    ros_msg.orientation_z = position.orientation.z
+    ros_msg.orientation_w = position.orientation.w
+    ros_msg.distance = 10
+    pub.publish(ros_msg)
 
 def feedback_callback(feedback):
     global position

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/rosbot_description/src/rosbot_gazebo
+CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/rosbot_description/src/rosbot_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/rosbot_gazebo
+CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/rosbot_gazebo
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/ekin/frontier_exploration/build/rosbot_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ekin/frontier_exploration/src/rosbot_description/src/rosbot_gazebo /home/ekin/frontier_exploration/src/rosbot_description/src/rosbot_gazebo /home/ekin/frontier_exploration/build/rosbot_gazebo /home/ekin/frontier_exploration/build/rosbot_gazebo /home/ekin/frontier_exploration/build/rosbot_gazebo/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /frontier_expo/frontier_exploration/build/rosbot_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /frontier_expo/frontier_exploration/src/rosbot_description/src/rosbot_gazebo /frontier_expo/frontier_exploration/src/rosbot_description/src/rosbot_gazebo /frontier_expo/frontier_exploration/build/rosbot_gazebo /frontier_expo/frontier_exploration/build/rosbot_gazebo /frontier_expo/frontier_exploration/build/rosbot_gazebo/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

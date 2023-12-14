@@ -1,1 +1,1 @@
-/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/share/roseus/ros/rosbot_ekf/manifest.l
+/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/share/roseus/ros/rosbot_ekf/manifest.l

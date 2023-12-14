@@ -1,4 +1,4 @@
-prefix=/home/ekin/frontier_exploration/devel/.private/multirobot_map_merge
+prefix=/frontier_expo/frontier_exploration/devel/.private/multirobot_map_merge
 
 Name: multirobot_map_merge
 Description: Description of multirobot_map_merge

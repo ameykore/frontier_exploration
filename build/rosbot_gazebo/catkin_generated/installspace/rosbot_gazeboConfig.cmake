@@ -67,14 +67,14 @@ set(rosbot_gazebo_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosbot_gazebo_SOURCE_PREFIX /home/ekin/frontier_exploration/src/rosbot_description/src/rosbot_gazebo)
-  set(rosbot_gazebo_DEVEL_PREFIX /home/ekin/frontier_exploration/devel/.private/rosbot_gazebo)
+  set(rosbot_gazebo_SOURCE_PREFIX /frontier_expo/frontier_exploration/src/rosbot_description/src/rosbot_gazebo)
+  set(rosbot_gazebo_DEVEL_PREFIX /frontier_expo/frontier_exploration/devel/.private/rosbot_gazebo)
   set(rosbot_gazebo_INSTALL_PREFIX "")
   set(rosbot_gazebo_PREFIX ${rosbot_gazebo_DEVEL_PREFIX})
 else()
   set(rosbot_gazebo_SOURCE_PREFIX "")
   set(rosbot_gazebo_DEVEL_PREFIX "")
-  set(rosbot_gazebo_INSTALL_PREFIX /home/ekin/frontier_exploration/install)
+  set(rosbot_gazebo_INSTALL_PREFIX /frontier_expo/frontier_exploration/install)
   set(rosbot_gazebo_PREFIX ${rosbot_gazebo_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ekin/frontier_exploration/install/lib;/home/ekin/frontier_exploration/devel/lib;/home/ekin/catkintut_ws/devel/lib;/home/ekin/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /frontier_expo/frontier_exploration/install/lib;/frontier_expo/frontier_exploration/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

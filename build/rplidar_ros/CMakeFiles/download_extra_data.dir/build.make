@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/rplidar_ros
+CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/rplidar_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/rplidar_ros
+CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/rplidar_ros
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/ekin/frontier_exploration/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ekin/frontier_exploration/src/rplidar_ros /home/ekin/frontier_exploration/src/rplidar_ros /home/ekin/frontier_exploration/build/rplidar_ros /home/ekin/frontier_exploration/build/rplidar_ros /home/ekin/frontier_exploration/build/rplidar_ros/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /frontier_expo/frontier_exploration/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /frontier_expo/frontier_exploration/src/rplidar_ros /frontier_expo/frontier_exploration/src/rplidar_ros /frontier_expo/frontier_exploration/build/rplidar_ros /frontier_expo/frontier_exploration/build/rplidar_ros /frontier_expo/frontier_exploration/build/rplidar_ros/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

@@ -1,0 +1,1 @@
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/common-lisp/ros/battery_exploration/msg/_package_battery_station.lisp

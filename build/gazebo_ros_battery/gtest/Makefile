@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/gazebo_ros_battery
+CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/gazebo_ros_battery
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/gazebo_ros_battery
+CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/gazebo_ros_battery
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ekin/frontier_exploration/build/gazebo_ros_battery && $(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/gazebo_ros_battery/CMakeFiles /home/ekin/frontier_exploration/build/gazebo_ros_battery/gtest/CMakeFiles/progress.marks
-	cd /home/ekin/frontier_exploration/build/gazebo_ros_battery && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/gazebo_ros_battery/CMakeFiles 0
+	cd /frontier_expo/frontier_exploration/build/gazebo_ros_battery && $(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/gazebo_ros_battery/CMakeFiles /frontier_expo/frontier_exploration/build/gazebo_ros_battery/gtest/CMakeFiles/progress.marks
+	cd /frontier_expo/frontier_exploration/build/gazebo_ros_battery && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/gazebo_ros_battery/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ekin/frontier_exploration/build/gazebo_ros_battery && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
+	cd /frontier_expo/frontier_exploration/build/gazebo_ros_battery && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ekin/frontier_exploration/build/gazebo_ros_battery && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+	cd /frontier_expo/frontier_exploration/build/gazebo_ros_battery && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ekin/frontier_exploration/build/gazebo_ros_battery && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+	cd /frontier_expo/frontier_exploration/build/gazebo_ros_battery && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ekin/frontier_exploration/build/gazebo_ros_battery && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /frontier_expo/frontier_exploration/build/gazebo_ros_battery && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ekin/frontier_exploration/build/gazebo_ros_battery && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /frontier_expo/frontier_exploration/build/gazebo_ros_battery && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

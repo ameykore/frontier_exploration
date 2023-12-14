@@ -46,14 +46,7 @@
 
 
   <!-- For battery code -->
-  <!-- Launch the first Python script -->
   <!-- <node name="battery_receiver" pkg="battery_exploration" type="rosbotmove.py" /> -->
-
-  <!-- Add a delay if needed between launching the scripts -->
-  <!-- <rosparam param="delay_seconds" subst_value="true"> 4 </rosparam> -->
-  <!-- <node pkg="rosparam" type="rosparam" name="rosparam" args="set /delay_seconds $(arg delay_seconds)" output="screen" /> -->
-
-  <!-- Launch the second Python script -->
-  <!-- <node name="battery_status" pkg="battery_exploration" type="battery_decay_publisher.py" output="screen"/> -->
+  <node name="battery_status" pkg="battery_exploration" type="battery_decay_publisher.py" output="screen"/>
 
 </launch>

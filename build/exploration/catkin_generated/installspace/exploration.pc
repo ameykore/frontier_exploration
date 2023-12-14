@@ -1,4 +1,4 @@
-prefix=/home/ekin/frontier_exploration/install
+prefix=/frontier_expo/frontier_exploration/install
 
 Name: exploration
 Description: Description of exploration

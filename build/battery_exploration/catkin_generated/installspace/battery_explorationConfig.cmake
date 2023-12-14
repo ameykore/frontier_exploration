@@ -67,14 +67,14 @@ set(battery_exploration_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(battery_exploration_SOURCE_PREFIX /home/ekin/frontier_exploration/src/battery_exploration)
-  set(battery_exploration_DEVEL_PREFIX /home/ekin/frontier_exploration/devel/.private/battery_exploration)
+  set(battery_exploration_SOURCE_PREFIX /frontier_expo/frontier_exploration/src/battery_exploration)
+  set(battery_exploration_DEVEL_PREFIX /frontier_expo/frontier_exploration/devel/.private/battery_exploration)
   set(battery_exploration_INSTALL_PREFIX "")
   set(battery_exploration_PREFIX ${battery_exploration_DEVEL_PREFIX})
 else()
   set(battery_exploration_SOURCE_PREFIX "")
   set(battery_exploration_DEVEL_PREFIX "")
-  set(battery_exploration_INSTALL_PREFIX /home/ekin/frontier_exploration/install)
+  set(battery_exploration_INSTALL_PREFIX /frontier_expo/frontier_exploration/install)
   set(battery_exploration_PREFIX ${battery_exploration_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(battery_exploration_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT " " STREQUAL " ")
+if(NOT "include " STREQUAL " ")
   set(battery_exploration_INCLUDE_DIRS "")
-  set(_include_dirs "")
+  set(_include_dirs "include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ekin/frontier_exploration/install/lib;/home/ekin/frontier_exploration/devel/lib;/home/ekin/catkintut_ws/devel/lib;/home/ekin/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /frontier_expo/frontier_exploration/install/lib;/frontier_expo/frontier_exploration/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -177,7 +177,7 @@ foreach(library ${libraries})
   endif()
 endforeach()
 
-set(battery_exploration_EXPORTED_TARGETS "")
+set(battery_exploration_EXPORTED_TARGETS "battery_exploration_generate_messages_cpp;battery_exploration_generate_messages_eus;battery_exploration_generate_messages_lisp;battery_exploration_generate_messages_nodejs;battery_exploration_generate_messages_py")
 # create dummy targets for exported code generation targets to make life of users easier
 foreach(t ${battery_exploration_EXPORTED_TARGETS})
   if(NOT TARGET ${t})
@@ -185,7 +185,7 @@ foreach(t ${battery_exploration_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "")
+set(depends "message_runtime")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls
@@ -214,7 +214,7 @@ foreach(depend ${depends})
   _list_append_deduplicate(battery_exploration_EXPORTED_TARGETS ${${battery_exploration_dep}_EXPORTED_TARGETS})
 endforeach()
 
-set(pkg_cfg_extras "")
+set(pkg_cfg_extras "battery_exploration-msg-extras.cmake")
 foreach(extra ${pkg_cfg_extras})
   if(NOT IS_ABSOLUTE ${extra})
     set(extra ${battery_exploration_DIR}/${extra})
