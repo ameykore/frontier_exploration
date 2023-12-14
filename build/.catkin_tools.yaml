@@ -1,6 +1,6 @@
-devel_space: /frontier_expo/frontier_exploration/devel
+devel_space: /home/ekin/frontier_exploration/devel
 install: false
-install_space: /frontier_expo/frontier_exploration/install
+install_space: /home/ekin/frontier_exploration/install
 profile: default
-source_space: /frontier_expo/frontier_exploration/src
-workspace: /frontier_expo/frontier_exploration
+source_space: /home/ekin/frontier_exploration/src
+workspace: /home/ekin/frontier_exploration

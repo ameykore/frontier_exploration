@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/include/rosbot_ekf/Configuration.h
+/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/include/rosbot_ekf/Configuration.h
 ros/service_traits.h
 -
 rosbot_ekf/ConfigurationRequest.h
@@ -14,7 +14,7 @@ rosbot_ekf/ConfigurationRequest.h
 rosbot_ekf/ConfigurationResponse.h
 -
 
-/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/include/rosbot_ekf/ConfigurationRequest.h
+/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/include/rosbot_ekf/ConfigurationRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/include/rosbot_ekf/ConfigurationResponse.h
+/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/include/rosbot_ekf/ConfigurationResponse.h
 string
 -
 vector
@@ -46,13 +46,13 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/frontier_expo/frontier_exploration/src/rosbot_ekf/src/move_base_ws2812b_example.cpp
+/home/ekin/frontier_exploration/src/rosbot_ekf/src/move_base_ws2812b_example.cpp
 ros/ros.h
-/frontier_expo/frontier_exploration/src/rosbot_ekf/src/ros/ros.h
+/home/ekin/frontier_exploration/src/rosbot_ekf/src/ros/ros.h
 rosbot_ekf/Configuration.h
-/frontier_expo/frontier_exploration/src/rosbot_ekf/src/rosbot_ekf/Configuration.h
+/home/ekin/frontier_exploration/src/rosbot_ekf/src/rosbot_ekf/Configuration.h
 std_msgs/String.h
-/frontier_expo/frontier_exploration/src/rosbot_ekf/src/std_msgs/String.h
+/home/ekin/frontier_exploration/src/rosbot_ekf/src/std_msgs/String.h
 actionlib/client/terminal_state.h
 -
 actionlib_msgs/GoalStatusArray.h

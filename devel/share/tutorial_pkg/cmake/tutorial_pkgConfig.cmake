@@ -1,1 +1,1 @@
-/frontier_expo/frontier_exploration/devel/.private/tutorial_pkg/share/tutorial_pkg/cmake/tutorial_pkgConfig.cmake
+/home/ekin/frontier_exploration/devel/.private/tutorial_pkg/share/tutorial_pkg/cmake/tutorial_pkgConfig.cmake

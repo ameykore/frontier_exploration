@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/m-explore/map_merge
+CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/m-explore/map_merge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/multirobot_map_merge
+CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/multirobot_map_merge
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -209,14 +209,14 @@ CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.di
 CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/build.make CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/build.make CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target _run_tests_multirobot_map_merge_roslaunch-check_launch_experiments"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target _run_tests_multirobot_map_merge_roslaunch-check_launch_experiments"
 .PHONY : CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/rule
 
 # Convenience name for target.
@@ -236,14 +236,14 @@ CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.di
 CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/all:
 	$(MAKE) -f CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/build.make CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/build.make CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests_multirobot_map_merge_roslaunch-check_launch_experiments"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests_multirobot_map_merge_roslaunch-check_launch_experiments"
 .PHONY : CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_experiments.dir/rule
 
 # Convenience name for target.
@@ -264,14 +264,14 @@ CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.laun
 CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/build.make CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/build.make CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target _run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target _run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch"
 .PHONY : CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/rule
 
 # Convenience name for target.
@@ -292,14 +292,14 @@ CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check.dir/all: CMakeFiles/_
 CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check.dir/all: CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check.dir/build.make CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check.dir/build.make CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target _run_tests_multirobot_map_merge_roslaunch-check"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target _run_tests_multirobot_map_merge_roslaunch-check"
 .PHONY : CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/_run_tests_multirobot_map_merge_roslaunch-check.dir/rule
 
 # Convenience name for target.
@@ -320,14 +320,14 @@ CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check.dir/all: CMakeFiles/ru
 CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check.dir/all: CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/all
 	$(MAKE) -f CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check.dir/build.make CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check.dir/build.make CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests_multirobot_map_merge_roslaunch-check"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests_multirobot_map_merge_roslaunch-check"
 .PHONY : CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check.dir/rule
 
 # Convenience name for target.
@@ -347,14 +347,14 @@ CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check.dir/clean:
 CMakeFiles/clean_test_results_multirobot_map_merge.dir/all:
 	$(MAKE) -f CMakeFiles/clean_test_results_multirobot_map_merge.dir/build.make CMakeFiles/clean_test_results_multirobot_map_merge.dir/depend
 	$(MAKE) -f CMakeFiles/clean_test_results_multirobot_map_merge.dir/build.make CMakeFiles/clean_test_results_multirobot_map_merge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target clean_test_results_multirobot_map_merge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target clean_test_results_multirobot_map_merge"
 .PHONY : CMakeFiles/clean_test_results_multirobot_map_merge.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results_multirobot_map_merge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results_multirobot_map_merge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/clean_test_results_multirobot_map_merge.dir/rule
 
 # Convenience name for target.
@@ -376,14 +376,14 @@ CMakeFiles/_run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/all: 
 CMakeFiles/_run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/all: CMakeFiles/test_merging_pipeline.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/build.make CMakeFiles/_run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/build.make CMakeFiles/_run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target _run_tests_multirobot_map_merge_gtest_test_merging_pipeline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target _run_tests_multirobot_map_merge_gtest_test_merging_pipeline"
 .PHONY : CMakeFiles/_run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/_run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/rule
 
 # Convenience name for target.
@@ -403,14 +403,14 @@ CMakeFiles/_run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/clean
 CMakeFiles/run_tests_multirobot_map_merge_gtest.dir/all: CMakeFiles/run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/all
 	$(MAKE) -f CMakeFiles/run_tests_multirobot_map_merge_gtest.dir/build.make CMakeFiles/run_tests_multirobot_map_merge_gtest.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests_multirobot_map_merge_gtest.dir/build.make CMakeFiles/run_tests_multirobot_map_merge_gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests_multirobot_map_merge_gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests_multirobot_map_merge_gtest"
 .PHONY : CMakeFiles/run_tests_multirobot_map_merge_gtest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests_multirobot_map_merge_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests_multirobot_map_merge_gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests_multirobot_map_merge_gtest.dir/rule
 
 # Convenience name for target.
@@ -430,14 +430,14 @@ CMakeFiles/run_tests_multirobot_map_merge_gtest.dir/clean:
 CMakeFiles/multirobot_map_merge_2011-08-09-12-22-52.pgm.dir/all:
 	$(MAKE) -f CMakeFiles/multirobot_map_merge_2011-08-09-12-22-52.pgm.dir/build.make CMakeFiles/multirobot_map_merge_2011-08-09-12-22-52.pgm.dir/depend
 	$(MAKE) -f CMakeFiles/multirobot_map_merge_2011-08-09-12-22-52.pgm.dir/build.make CMakeFiles/multirobot_map_merge_2011-08-09-12-22-52.pgm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target multirobot_map_merge_2011-08-09-12-22-52.pgm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target multirobot_map_merge_2011-08-09-12-22-52.pgm"
 .PHONY : CMakeFiles/multirobot_map_merge_2011-08-09-12-22-52.pgm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/multirobot_map_merge_2011-08-09-12-22-52.pgm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/multirobot_map_merge_2011-08-09-12-22-52.pgm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/multirobot_map_merge_2011-08-09-12-22-52.pgm.dir/rule
 
 # Convenience name for target.
@@ -457,14 +457,14 @@ CMakeFiles/multirobot_map_merge_2011-08-09-12-22-52.pgm.dir/clean:
 CMakeFiles/run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/all: CMakeFiles/test_merging_pipeline.dir/all
 	$(MAKE) -f CMakeFiles/run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/build.make CMakeFiles/run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/build.make CMakeFiles/run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests_multirobot_map_merge_gtest_test_merging_pipeline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests_multirobot_map_merge_gtest_test_merging_pipeline"
 .PHONY : CMakeFiles/run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/rule
 
 # Convenience name for target.
@@ -484,14 +484,14 @@ CMakeFiles/run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/clean:
 CMakeFiles/multirobot_map_merge_2012-01-28-11-12-01.pgm.dir/all:
 	$(MAKE) -f CMakeFiles/multirobot_map_merge_2012-01-28-11-12-01.pgm.dir/build.make CMakeFiles/multirobot_map_merge_2012-01-28-11-12-01.pgm.dir/depend
 	$(MAKE) -f CMakeFiles/multirobot_map_merge_2012-01-28-11-12-01.pgm.dir/build.make CMakeFiles/multirobot_map_merge_2012-01-28-11-12-01.pgm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target multirobot_map_merge_2012-01-28-11-12-01.pgm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target multirobot_map_merge_2012-01-28-11-12-01.pgm"
 .PHONY : CMakeFiles/multirobot_map_merge_2012-01-28-11-12-01.pgm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/multirobot_map_merge_2012-01-28-11-12-01.pgm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/multirobot_map_merge_2012-01-28-11-12-01.pgm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/multirobot_map_merge_2012-01-28-11-12-01.pgm.dir/rule
 
 # Convenience name for target.
@@ -511,14 +511,14 @@ CMakeFiles/multirobot_map_merge_2012-01-28-11-12-01.pgm.dir/clean:
 CMakeFiles/map_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/map_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/map_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -538,14 +538,14 @@ CMakeFiles/map_msgs_generate_messages_nodejs.dir/clean:
 CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -565,14 +565,14 @@ CMakeFiles/actionlib_msgs_generate_messages_eus.dir/clean:
 CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -592,14 +592,14 @@ CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 CMakeFiles/map_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make CMakeFiles/map_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make CMakeFiles/map_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/map_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/map_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/map_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -619,14 +619,14 @@ CMakeFiles/map_msgs_generate_messages_lisp.dir/clean:
 CMakeFiles/map_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_eus.dir/build.make CMakeFiles/map_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_eus.dir/build.make CMakeFiles/map_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/map_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/map_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/map_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/map_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -646,14 +646,14 @@ CMakeFiles/map_msgs_generate_messages_eus.dir/clean:
 CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -673,14 +673,14 @@ CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean:
 CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/nav_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -700,14 +700,14 @@ CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean:
 CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -727,14 +727,14 @@ CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
 CMakeFiles/std_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_py.dir/build.make CMakeFiles/std_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_py"
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -754,14 +754,14 @@ CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 CMakeFiles/std_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -781,14 +781,14 @@ CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
 CMakeFiles/geometry_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -808,14 +808,14 @@ CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
 CMakeFiles/nav_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make CMakeFiles/nav_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -835,14 +835,14 @@ CMakeFiles/nav_msgs_generate_messages_lisp.dir/clean:
 CMakeFiles/nav_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make CMakeFiles/nav_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -862,14 +862,14 @@ CMakeFiles/nav_msgs_generate_messages_cpp.dir/clean:
 CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -889,14 +889,14 @@ CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
 CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -916,14 +916,14 @@ CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
 CMakeFiles/sensor_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -943,14 +943,14 @@ CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
 CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -970,14 +970,14 @@ CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
 CMakeFiles/geometry_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_py"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -997,14 +997,14 @@ CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 CMakeFiles/nav_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_py.dir/build.make CMakeFiles/nav_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_py.dir/build.make CMakeFiles/nav_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_py"
 .PHONY : CMakeFiles/nav_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nav_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nav_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/nav_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1024,14 +1024,14 @@ CMakeFiles/nav_msgs_generate_messages_py.dir/clean:
 CMakeFiles/map_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_py.dir/build.make CMakeFiles/map_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_py.dir/build.make CMakeFiles/map_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_py"
 .PHONY : CMakeFiles/map_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/map_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/map_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/map_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1055,14 +1055,14 @@ CMakeFiles/tests.dir/all: CMakeFiles/multirobot_map_merge_map00.pgm.dir/all
 CMakeFiles/tests.dir/all: CMakeFiles/multirobot_map_merge_map05.pgm.dir/all
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -1087,14 +1087,14 @@ CMakeFiles/test_merging_pipeline.dir/all: CMakeFiles/multirobot_map_merge_map05.
 CMakeFiles/test_merging_pipeline.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f CMakeFiles/test_merging_pipeline.dir/build.make CMakeFiles/test_merging_pipeline.dir/depend
 	$(MAKE) -f CMakeFiles/test_merging_pipeline.dir/build.make CMakeFiles/test_merging_pipeline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=15,16 "Built target test_merging_pipeline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=15,16 "Built target test_merging_pipeline"
 .PHONY : CMakeFiles/test_merging_pipeline.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_merging_pipeline.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test_merging_pipeline.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/test_merging_pipeline.dir/rule
 
 # Convenience name for target.
@@ -1114,14 +1114,14 @@ CMakeFiles/test_merging_pipeline.dir/clean:
 CMakeFiles/roscpp_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_lisp.dir/build.make CMakeFiles/roscpp_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target roscpp_generate_messages_lisp"
 .PHONY : CMakeFiles/roscpp_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roscpp_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roscpp_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1141,14 +1141,14 @@ CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
 CMakeFiles/clean_test_results.dir/all:
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/depend
 	$(MAKE) -f CMakeFiles/clean_test_results.dir/build.make CMakeFiles/clean_test_results.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target clean_test_results"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target clean_test_results"
 .PHONY : CMakeFiles/clean_test_results.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_test_results.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/clean_test_results.dir/rule
 
 # Convenience name for target.
@@ -1168,14 +1168,14 @@ CMakeFiles/clean_test_results.dir/clean:
 CMakeFiles/actionlib_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_lisp.dir/build.make CMakeFiles/actionlib_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_lisp.dir/build.make CMakeFiles/actionlib_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_generate_messages_lisp"
 .PHONY : CMakeFiles/actionlib_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1198,14 +1198,14 @@ CMakeFiles/download_extra_data.dir/all: CMakeFiles/multirobot_map_merge_map00.pg
 CMakeFiles/download_extra_data.dir/all: CMakeFiles/multirobot_map_merge_map05.pgm.dir/all
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/depend
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target download_extra_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target download_extra_data"
 .PHONY : CMakeFiles/download_extra_data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/download_extra_data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/download_extra_data.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/download_extra_data.dir/rule
 
 # Convenience name for target.
@@ -1225,14 +1225,14 @@ CMakeFiles/download_extra_data.dir/clean:
 CMakeFiles/doxygen.dir/all:
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/depend
 	$(MAKE) -f CMakeFiles/doxygen.dir/build.make CMakeFiles/doxygen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target doxygen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target doxygen"
 .PHONY : CMakeFiles/doxygen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/doxygen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/doxygen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/doxygen.dir/rule
 
 # Convenience name for target.
@@ -1252,14 +1252,14 @@ CMakeFiles/doxygen.dir/clean:
 CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_py"
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1279,14 +1279,14 @@ CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
 CMakeFiles/map_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make CMakeFiles/map_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make CMakeFiles/map_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target map_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/map_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/map_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/map_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1306,14 +1306,14 @@ CMakeFiles/map_msgs_generate_messages_cpp.dir/clean:
 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1333,14 +1333,14 @@ CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1360,14 +1360,14 @@ CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
 CMakeFiles/tf2_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_py"
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf2_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf2_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1387,14 +1387,14 @@ CMakeFiles/tf2_msgs_generate_messages_py.dir/clean:
 CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target geometry_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1414,14 +1414,14 @@ CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean:
 CMakeFiles/std_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1441,14 +1441,14 @@ CMakeFiles/std_msgs_generate_messages_cpp.dir/clean:
 CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1468,14 +1468,14 @@ CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean:
 CMakeFiles/run_tests.dir/all: CMakeFiles/_run_tests_multirobot_map_merge.dir/all
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests"
 .PHONY : CMakeFiles/run_tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -1495,14 +1495,14 @@ CMakeFiles/run_tests.dir/clean:
 CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/all:
 	$(MAKE) -f CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/build.make CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/build.make CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch"
 .PHONY : CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launch.dir/rule
 
 # Convenience name for target.
@@ -1522,14 +1522,14 @@ CMakeFiles/run_tests_multirobot_map_merge_roslaunch-check_launch_map_merge.launc
 CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1549,14 +1549,14 @@ CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
 CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -1576,14 +1576,14 @@ CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean:
 CMakeFiles/std_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_eus.dir/build.make CMakeFiles/std_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/std_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1603,14 +1603,14 @@ CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
 CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1630,14 +1630,14 @@ CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean:
 CMakeFiles/actionlib_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_py.dir/build.make CMakeFiles/actionlib_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_py.dir/build.make CMakeFiles/actionlib_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_generate_messages_py"
 .PHONY : CMakeFiles/actionlib_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1658,14 +1658,14 @@ CMakeFiles/_run_tests_multirobot_map_merge.dir/all: CMakeFiles/_run_tests_multir
 CMakeFiles/_run_tests_multirobot_map_merge.dir/all: CMakeFiles/_run_tests_multirobot_map_merge_gtest.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_multirobot_map_merge.dir/build.make CMakeFiles/_run_tests_multirobot_map_merge.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_multirobot_map_merge.dir/build.make CMakeFiles/_run_tests_multirobot_map_merge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target _run_tests_multirobot_map_merge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target _run_tests_multirobot_map_merge"
 .PHONY : CMakeFiles/_run_tests_multirobot_map_merge.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_run_tests_multirobot_map_merge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_multirobot_map_merge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/_run_tests_multirobot_map_merge.dir/rule
 
 # Convenience name for target.
@@ -1685,14 +1685,14 @@ CMakeFiles/_run_tests_multirobot_map_merge.dir/clean:
 CMakeFiles/actionlib_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_msgs_generate_messages_py"
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1712,14 +1712,14 @@ CMakeFiles/actionlib_msgs_generate_messages_py.dir/clean:
 CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1739,14 +1739,14 @@ CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
 CMakeFiles/actionlib_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_generate_messages_cpp"
 .PHONY : CMakeFiles/actionlib_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1766,14 +1766,14 @@ CMakeFiles/actionlib_generate_messages_cpp.dir/clean:
 CMakeFiles/roscpp_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_eus.dir/build.make CMakeFiles/roscpp_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target roscpp_generate_messages_eus"
 .PHONY : CMakeFiles/roscpp_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roscpp_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roscpp_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1793,14 +1793,14 @@ CMakeFiles/roscpp_generate_messages_eus.dir/clean:
 CMakeFiles/sensor_msgs_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target sensor_msgs_generate_messages_py"
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sensor_msgs_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sensor_msgs_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1820,14 +1820,14 @@ CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
 CMakeFiles/tf2_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make CMakeFiles/tf2_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1847,14 +1847,14 @@ CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean:
 CMakeFiles/roscpp_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make CMakeFiles/roscpp_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target roscpp_generate_messages_nodejs"
 .PHONY : CMakeFiles/roscpp_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roscpp_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roscpp_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -1874,14 +1874,14 @@ CMakeFiles/roscpp_generate_messages_nodejs.dir/clean:
 CMakeFiles/_run_tests_multirobot_map_merge_gtest.dir/all: CMakeFiles/_run_tests_multirobot_map_merge_gtest_test_merging_pipeline.dir/all
 	$(MAKE) -f CMakeFiles/_run_tests_multirobot_map_merge_gtest.dir/build.make CMakeFiles/_run_tests_multirobot_map_merge_gtest.dir/depend
 	$(MAKE) -f CMakeFiles/_run_tests_multirobot_map_merge_gtest.dir/build.make CMakeFiles/_run_tests_multirobot_map_merge_gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target _run_tests_multirobot_map_merge_gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target _run_tests_multirobot_map_merge_gtest"
 .PHONY : CMakeFiles/_run_tests_multirobot_map_merge_gtest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_run_tests_multirobot_map_merge_gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_multirobot_map_merge_gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/_run_tests_multirobot_map_merge_gtest.dir/rule
 
 # Convenience name for target.
@@ -1901,14 +1901,14 @@ CMakeFiles/_run_tests_multirobot_map_merge_gtest.dir/clean:
 CMakeFiles/roscpp_generate_messages_py.dir/all:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -1928,14 +1928,14 @@ CMakeFiles/roscpp_generate_messages_py.dir/clean:
 CMakeFiles/actionlib_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_eus.dir/build.make CMakeFiles/actionlib_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_eus.dir/build.make CMakeFiles/actionlib_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_generate_messages_eus"
 .PHONY : CMakeFiles/actionlib_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -1955,14 +1955,14 @@ CMakeFiles/actionlib_generate_messages_eus.dir/clean:
 CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_cpp"
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -1982,14 +1982,14 @@ CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
 CMakeFiles/actionlib_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target actionlib_generate_messages_nodejs"
 .PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/actionlib_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2009,14 +2009,14 @@ CMakeFiles/actionlib_generate_messages_nodejs.dir/clean:
 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_lisp"
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -2036,14 +2036,14 @@ CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean:
 CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/depend
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target tf2_msgs_generate_messages_nodejs"
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -2063,14 +2063,14 @@ CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/clean:
 CMakeFiles/nav_msgs_generate_messages_eus.dir/all:
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make CMakeFiles/nav_msgs_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make CMakeFiles/nav_msgs_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target nav_msgs_generate_messages_eus"
 .PHONY : CMakeFiles/nav_msgs_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nav_msgs_generate_messages_eus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nav_msgs_generate_messages_eus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -2139,14 +2139,14 @@ CMakeFiles/combine_grids.dir/all: CMakeFiles/nav_msgs_generate_messages_eus.dir/
 CMakeFiles/combine_grids.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(MAKE) -f CMakeFiles/combine_grids.dir/build.make CMakeFiles/combine_grids.dir/depend
 	$(MAKE) -f CMakeFiles/combine_grids.dir/build.make CMakeFiles/combine_grids.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=1,2,3,4 "Built target combine_grids"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=1,2,3,4 "Built target combine_grids"
 .PHONY : CMakeFiles/combine_grids.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/combine_grids.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/combine_grids.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/combine_grids.dir/rule
 
 # Convenience name for target.
@@ -2167,14 +2167,14 @@ CMakeFiles/run_tests_multirobot_map_merge.dir/all: CMakeFiles/run_tests_multirob
 CMakeFiles/run_tests_multirobot_map_merge.dir/all: CMakeFiles/run_tests_multirobot_map_merge_gtest.dir/all
 	$(MAKE) -f CMakeFiles/run_tests_multirobot_map_merge.dir/build.make CMakeFiles/run_tests_multirobot_map_merge.dir/depend
 	$(MAKE) -f CMakeFiles/run_tests_multirobot_map_merge.dir/build.make CMakeFiles/run_tests_multirobot_map_merge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests_multirobot_map_merge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target run_tests_multirobot_map_merge"
 .PHONY : CMakeFiles/run_tests_multirobot_map_merge.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests_multirobot_map_merge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/run_tests_multirobot_map_merge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests_multirobot_map_merge.dir/rule
 
 # Convenience name for target.
@@ -2244,14 +2244,14 @@ CMakeFiles/map_merge.dir/all: CMakeFiles/combine_grids.dir/all
 CMakeFiles/map_merge.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
 	$(MAKE) -f CMakeFiles/map_merge.dir/build.make CMakeFiles/map_merge.dir/depend
 	$(MAKE) -f CMakeFiles/map_merge.dir/build.make CMakeFiles/map_merge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=13,14 "Built target map_merge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=13,14 "Built target map_merge"
 .PHONY : CMakeFiles/map_merge.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/map_merge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/map_merge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/map_merge.dir/rule
 
 # Convenience name for target.
@@ -2271,14 +2271,14 @@ CMakeFiles/map_merge.dir/clean:
 CMakeFiles/roscpp_generate_messages_cpp.dir/all:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target roscpp_generate_messages_cpp"
 .PHONY : CMakeFiles/roscpp_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/roscpp_generate_messages_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roscpp_generate_messages_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -2298,14 +2298,14 @@ CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
 CMakeFiles/multirobot_map_merge_map00.pgm.dir/all:
 	$(MAKE) -f CMakeFiles/multirobot_map_merge_map00.pgm.dir/build.make CMakeFiles/multirobot_map_merge_map00.pgm.dir/depend
 	$(MAKE) -f CMakeFiles/multirobot_map_merge_map00.pgm.dir/build.make CMakeFiles/multirobot_map_merge_map00.pgm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target multirobot_map_merge_map00.pgm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target multirobot_map_merge_map00.pgm"
 .PHONY : CMakeFiles/multirobot_map_merge_map00.pgm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/multirobot_map_merge_map00.pgm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/multirobot_map_merge_map00.pgm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/multirobot_map_merge_map00.pgm.dir/rule
 
 # Convenience name for target.
@@ -2325,14 +2325,14 @@ CMakeFiles/multirobot_map_merge_map00.pgm.dir/clean:
 CMakeFiles/multirobot_map_merge_map05.pgm.dir/all:
 	$(MAKE) -f CMakeFiles/multirobot_map_merge_map05.pgm.dir/build.make CMakeFiles/multirobot_map_merge_map05.pgm.dir/depend
 	$(MAKE) -f CMakeFiles/multirobot_map_merge_map05.pgm.dir/build.make CMakeFiles/multirobot_map_merge_map05.pgm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target multirobot_map_merge_map05.pgm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num= "Built target multirobot_map_merge_map05.pgm"
 .PHONY : CMakeFiles/multirobot_map_merge_map05.pgm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/multirobot_map_merge_map05.pgm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/multirobot_map_merge_map05.pgm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : CMakeFiles/multirobot_map_merge_map05.pgm.dir/rule
 
 # Convenience name for target.
@@ -2353,14 +2353,14 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmoc
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=7,8 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=7,8 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -2380,14 +2380,14 @@ gtest/googlemock/CMakeFiles/gmock_main.dir/clean:
 gtest/googlemock/CMakeFiles/gmock.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=5,6 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=5,6 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -2407,14 +2407,14 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 gtest/googletest/CMakeFiles/gtest_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest_main.dir/build.make gtest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=11,12 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=11,12 "Built target gtest_main"
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : gtest/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -2434,14 +2434,14 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 gtest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=9,10 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles --progress-num=9,10 "Built target gtest"
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 gtest/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 gtest/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/multirobot_map_merge/CMakeFiles 0
 .PHONY : gtest/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.

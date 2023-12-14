@@ -1,4 +1,4 @@
-Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/explore_lite.pc
-Symlinking /frontier_expo/frontier_exploration/devel/lib/explore_lite/explore
-Symlinking /frontier_expo/frontier_exploration/devel/share/explore_lite/cmake/explore_liteConfig-version.cmake
-Symlinking /frontier_expo/frontier_exploration/devel/share/explore_lite/cmake/explore_liteConfig.cmake
+Symlinking /home/ekin/frontier_exploration/devel/lib/explore_lite/explore
+Symlinking /home/ekin/frontier_exploration/devel/lib/pkgconfig/explore_lite.pc
+Symlinking /home/ekin/frontier_exploration/devel/share/explore_lite/cmake/explore_liteConfig.cmake
+Symlinking /home/ekin/frontier_exploration/devel/share/explore_lite/cmake/explore_liteConfig-version.cmake

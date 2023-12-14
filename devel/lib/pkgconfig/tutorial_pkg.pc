@@ -1,1 +1,1 @@
-/frontier_expo/frontier_exploration/devel/.private/tutorial_pkg/lib/pkgconfig/tutorial_pkg.pc
+/home/ekin/frontier_exploration/devel/.private/tutorial_pkg/lib/pkgconfig/tutorial_pkg.pc

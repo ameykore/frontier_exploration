@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/frontier_expo/frontier_exploration/src/rplidar_ros/src/client.cpp" "/frontier_expo/frontier_exploration/build/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
+  "/home/ekin/frontier_exploration/src/rplidar_ros/src/client.cpp" "/home/ekin/frontier_exploration/build/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/frontier_expo/frontier_exploration/src/rplidar_ros/./sdk/include"
-  "/frontier_expo/frontier_exploration/src/rplidar_ros/./sdk/src"
+  "/home/ekin/frontier_exploration/src/rplidar_ros/./sdk/include"
+  "/home/ekin/frontier_exploration/src/rplidar_ros/./sdk/src"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

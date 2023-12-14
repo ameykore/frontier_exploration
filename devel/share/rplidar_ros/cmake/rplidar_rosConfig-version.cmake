@@ -1,1 +1,1 @@
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake

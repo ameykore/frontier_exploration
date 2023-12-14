@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/rplidar_ros
+CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/rplidar_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/rplidar_ros
+CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/rplidar_ros
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rplidarNodeClient.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/rplidarNodeClient.dir/progress.make
 include CMakeFiles/rplidarNodeClient.dir/flags.make
 
 CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: CMakeFiles/rplidarNodeClient.dir/flags.make
-CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: /frontier_expo/frontier_exploration/src/rplidar_ros/src/client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/frontier_expo/frontier_exploration/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o -c /frontier_expo/frontier_exploration/src/rplidar_ros/src/client.cpp
+CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o: /home/ekin/frontier_exploration/src/rplidar_ros/src/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ekin/frontier_exploration/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o -c /home/ekin/frontier_exploration/src/rplidar_ros/src/client.cpp
 
 CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /frontier_expo/frontier_exploration/src/rplidar_ros/src/client.cpp > CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ekin/frontier_exploration/src/rplidar_ros/src/client.cpp > CMakeFiles/rplidarNodeClient.dir/src/client.cpp.i
 
 CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /frontier_expo/frontier_exploration/src/rplidar_ros/src/client.cpp -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ekin/frontier_exploration/src/rplidar_ros/src/client.cpp -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.s
 
 # Object files for target rplidarNodeClient
 rplidarNodeClient_OBJECTS = \
@@ -77,31 +77,31 @@ rplidarNodeClient_OBJECTS = \
 # External object files for target rplidarNodeClient
 rplidarNodeClient_EXTERNAL_OBJECTS =
 
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: CMakeFiles/rplidarNodeClient.dir/build.make
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/libroscpp.so
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libpthread.so
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/libxmlrpcpp.so
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/librosconsole.so
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/libroscpp_serialization.so
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/librostime.so
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/libcpp_common.so
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: CMakeFiles/rplidarNodeClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/frontier_expo/frontier_exploration/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient"
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: CMakeFiles/rplidarNodeClient.dir/build.make
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/libroscpp.so
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/librosconsole.so
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/librostime.so
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /opt/ros/noetic/lib/libcpp_common.so
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient: CMakeFiles/rplidarNodeClient.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ekin/frontier_exploration/build/rplidar_ros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rplidarNodeClient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/rplidarNodeClient.dir/build: /frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+CMakeFiles/rplidarNodeClient.dir/build: /home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
 
 .PHONY : CMakeFiles/rplidarNodeClient.dir/build
 
@@ -110,6 +110,6 @@ CMakeFiles/rplidarNodeClient.dir/clean:
 .PHONY : CMakeFiles/rplidarNodeClient.dir/clean
 
 CMakeFiles/rplidarNodeClient.dir/depend:
-	cd /frontier_expo/frontier_exploration/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /frontier_expo/frontier_exploration/src/rplidar_ros /frontier_expo/frontier_exploration/src/rplidar_ros /frontier_expo/frontier_exploration/build/rplidar_ros /frontier_expo/frontier_exploration/build/rplidar_ros /frontier_expo/frontier_exploration/build/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ekin/frontier_exploration/build/rplidar_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ekin/frontier_exploration/src/rplidar_ros /home/ekin/frontier_exploration/src/rplidar_ros /home/ekin/frontier_exploration/build/rplidar_ros /home/ekin/frontier_exploration/build/rplidar_ros /home/ekin/frontier_exploration/build/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rplidarNodeClient.dir/depend
 
