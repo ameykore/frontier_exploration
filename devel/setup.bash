@@ -1,1 +1,1 @@
-/frontier_expo/frontier_exploration/devel/.private/catkin_tools_prebuild/setup.bash
+/home/ekin/frontier_exploration/devel/.private/catkin_tools_prebuild/setup.bash

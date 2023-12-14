@@ -1,1 +1,1 @@
-/frontier_expo/frontier_exploration/devel/.private/exploration/share/exploration/cmake/explorationConfig.cmake
+/home/ekin/frontier_exploration/devel/.private/exploration/share/exploration/cmake/explorationConfig.cmake

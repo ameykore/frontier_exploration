@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/tutorial_pkg
+CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/tutorial_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/tutorial_pkg
+CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/tutorial_pkg
 
 # Utility rule file for grid_map_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/grid_map_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/grid_map_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/grid_map_msgs_generate_messages_eus.dir/depend:
-	cd /frontier_expo/frontier_exploration/build/tutorial_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /frontier_expo/frontier_exploration/src/tutorial_pkg /frontier_expo/frontier_exploration/src/tutorial_pkg /frontier_expo/frontier_exploration/build/tutorial_pkg /frontier_expo/frontier_exploration/build/tutorial_pkg /frontier_expo/frontier_exploration/build/tutorial_pkg/CMakeFiles/grid_map_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ekin/frontier_exploration/build/tutorial_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ekin/frontier_exploration/src/tutorial_pkg /home/ekin/frontier_exploration/src/tutorial_pkg /home/ekin/frontier_exploration/build/tutorial_pkg /home/ekin/frontier_exploration/build/tutorial_pkg /home/ekin/frontier_exploration/build/tutorial_pkg/CMakeFiles/grid_map_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/grid_map_msgs_generate_messages_eus.dir/depend
 

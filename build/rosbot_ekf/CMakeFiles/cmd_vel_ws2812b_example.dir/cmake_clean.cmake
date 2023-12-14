@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/lib/rosbot_ekf/cmd_vel_ws2812b_example"
-  "/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/lib/rosbot_ekf/cmd_vel_ws2812b_example.pdb"
+  "/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/lib/rosbot_ekf/cmd_vel_ws2812b_example"
+  "/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/lib/rosbot_ekf/cmd_vel_ws2812b_example.pdb"
   "CMakeFiles/cmd_vel_ws2812b_example.dir/src/cmd_vel_ws2812b_example.cpp.o"
 )
 

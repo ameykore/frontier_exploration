@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/frontier_expo/frontier_exploration/src/gazebo_ros_battery/srv/Reset.srv;/frontier_expo/frontier_exploration/src/gazebo_ros_battery/srv/SetCharge.srv;/frontier_expo/frontier_exploration/src/gazebo_ros_battery/srv/SetTemperature.srv"
+services_str = "/home/ekin/frontier_exploration/src/gazebo_ros_battery/srv/Reset.srv;/home/ekin/frontier_exploration/src/gazebo_ros_battery/srv/SetCharge.srv;/home/ekin/frontier_exploration/src/gazebo_ros_battery/srv/SetTemperature.srv"
 pkg_name = "gazebo_ros_battery"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

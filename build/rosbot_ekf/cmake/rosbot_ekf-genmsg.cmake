@@ -17,9 +17,9 @@ add_custom_target(rosbot_ekf_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" NAME_WE)
+get_filename_component(_filename "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" NAME_WE)
 add_custom_target(_rosbot_ekf_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "rosbot_ekf" "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "rosbot_ekf" "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" ""
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_rosbot_ekf_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(rosbot_ekf
-  "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv"
+  "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/rosbot_ekf
@@ -49,7 +49,7 @@ add_custom_target(rosbot_ekf_generate_messages_cpp
 add_dependencies(rosbot_ekf_generate_messages rosbot_ekf_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" NAME_WE)
+get_filename_component(_filename "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" NAME_WE)
 add_dependencies(rosbot_ekf_generate_messages_cpp _rosbot_ekf_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS rosbot_ekf_generate_messages_cpp)
 
 ### Generating Services
 _generate_srv_eus(rosbot_ekf
-  "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv"
+  "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/rosbot_ekf
@@ -82,7 +82,7 @@ add_custom_target(rosbot_ekf_generate_messages_eus
 add_dependencies(rosbot_ekf_generate_messages rosbot_ekf_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" NAME_WE)
+get_filename_component(_filename "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" NAME_WE)
 add_dependencies(rosbot_ekf_generate_messages_eus _rosbot_ekf_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS rosbot_ekf_generate_messages_eus)
 
 ### Generating Services
 _generate_srv_lisp(rosbot_ekf
-  "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv"
+  "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/rosbot_ekf
@@ -115,7 +115,7 @@ add_custom_target(rosbot_ekf_generate_messages_lisp
 add_dependencies(rosbot_ekf_generate_messages rosbot_ekf_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" NAME_WE)
+get_filename_component(_filename "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" NAME_WE)
 add_dependencies(rosbot_ekf_generate_messages_lisp _rosbot_ekf_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS rosbot_ekf_generate_messages_lisp)
 
 ### Generating Services
 _generate_srv_nodejs(rosbot_ekf
-  "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv"
+  "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/rosbot_ekf
@@ -148,7 +148,7 @@ add_custom_target(rosbot_ekf_generate_messages_nodejs
 add_dependencies(rosbot_ekf_generate_messages rosbot_ekf_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" NAME_WE)
+get_filename_component(_filename "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" NAME_WE)
 add_dependencies(rosbot_ekf_generate_messages_nodejs _rosbot_ekf_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS rosbot_ekf_generate_messages_nodejs
 
 ### Generating Services
 _generate_srv_py(rosbot_ekf
-  "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv"
+  "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/rosbot_ekf
@@ -181,7 +181,7 @@ add_custom_target(rosbot_ekf_generate_messages_py
 add_dependencies(rosbot_ekf_generate_messages rosbot_ekf_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/frontier_expo/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" NAME_WE)
+get_filename_component(_filename "/home/ekin/frontier_exploration/src/rosbot_ekf/srv/Configuration.srv" NAME_WE)
 add_dependencies(rosbot_ekf_generate_messages_py _rosbot_ekf_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

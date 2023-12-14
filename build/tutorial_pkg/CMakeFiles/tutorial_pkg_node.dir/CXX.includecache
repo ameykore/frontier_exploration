@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/frontier_expo/frontier_exploration/src/tutorial_pkg/src/tutorial_pkg_node.cpp
+/home/ekin/frontier_exploration/src/tutorial_pkg/src/tutorial_pkg_node.cpp
 ros/ros.h
 -
 sensor_msgs/Image.h

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/frontier_expo/frontier_exploration/devel/.private/multirobot_map_merge/lib/multirobot_map_merge/test_merging_pipeline"
-  "/frontier_expo/frontier_exploration/devel/.private/multirobot_map_merge/lib/multirobot_map_merge/test_merging_pipeline.pdb"
+  "/home/ekin/frontier_exploration/devel/.private/multirobot_map_merge/lib/multirobot_map_merge/test_merging_pipeline"
+  "/home/ekin/frontier_exploration/devel/.private/multirobot_map_merge/lib/multirobot_map_merge/test_merging_pipeline.pdb"
   "CMakeFiles/test_merging_pipeline.dir/test/test_merging_pipeline.cpp.o"
 )
 

@@ -1,1 +1,1 @@
-/frontier_expo/frontier_exploration/devel/.private/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig.cmake
+/home/ekin/frontier_exploration/devel/.private/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig.cmake

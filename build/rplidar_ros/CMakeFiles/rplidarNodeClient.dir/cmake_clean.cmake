@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient"
-  "/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient.pdb"
+  "/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient"
+  "/home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient.pdb"
   "CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
 )
 

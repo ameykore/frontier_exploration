@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/frontier_expo/frontier_exploration/src/tutorial_pkg/src/drive_controller.cpp
+/home/ekin/frontier_exploration/src/tutorial_pkg/src/drive_controller.cpp
 ros/ros.h
 -
 geometry_msgs/PoseStamped.h

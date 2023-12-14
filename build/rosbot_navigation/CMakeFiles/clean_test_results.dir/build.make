@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/rosbot_description/src/rosbot_navigation
+CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/rosbot_description/src/rosbot_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/rosbot_navigation
+CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/rosbot_navigation
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/rosbot_navigation
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /frontier_expo/frontier_exploration/build/rosbot_navigation/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/ekin/frontier_exploration/build/rosbot_navigation/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /frontier_expo/frontier_exploration/build/rosbot_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /frontier_expo/frontier_exploration/src/rosbot_description/src/rosbot_navigation /frontier_expo/frontier_exploration/src/rosbot_description/src/rosbot_navigation /frontier_expo/frontier_exploration/build/rosbot_navigation /frontier_expo/frontier_exploration/build/rosbot_navigation /frontier_expo/frontier_exploration/build/rosbot_navigation/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ekin/frontier_exploration/build/rosbot_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ekin/frontier_exploration/src/rosbot_description/src/rosbot_navigation /home/ekin/frontier_exploration/src/rosbot_description/src/rosbot_navigation /home/ekin/frontier_exploration/build/rosbot_navigation /home/ekin/frontier_exploration/build/rosbot_navigation /home/ekin/frontier_exploration/build/rosbot_navigation/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

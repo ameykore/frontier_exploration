@@ -1,1 +1,1 @@
-/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/share/roseus/ros/rosbot_ekf/srv/Configuration.l
+/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/share/roseus/ros/rosbot_ekf/srv/Configuration.l

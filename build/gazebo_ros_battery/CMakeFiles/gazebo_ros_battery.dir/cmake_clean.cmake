@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.pdb"
-  "/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so"
+  "/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.pdb"
+  "/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/libgazebo_ros_battery.so"
   "CMakeFiles/gazebo_ros_battery.dir/src/gazebo_ros_battery.cpp.o"
 )
 

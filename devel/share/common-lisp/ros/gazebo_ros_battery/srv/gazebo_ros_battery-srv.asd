@@ -1,1 +1,1 @@
-/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/share/common-lisp/ros/gazebo_ros_battery/srv/gazebo_ros_battery-srv.asd
+/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/share/common-lisp/ros/gazebo_ros_battery/srv/gazebo_ros_battery-srv.asd

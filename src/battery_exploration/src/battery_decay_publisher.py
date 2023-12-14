@@ -6,10 +6,10 @@ import time
 from move_base_msgs.msg import MoveBaseActionFeedback
 
 # Parameters
-battery_voltage = 25  # Fully charged voltage [V]
-alpha = 0.2  # Linear discharge coefficient
-Q = 2.0  # Design capacity of the battery [Ah]
-R = 0.2  # Internal resistance of the battery [Ohm]
+battery_voltage = 24.2  # Fully charged voltage [V]
+alpha = -1.0  # Linear discharge coefficient
+Q = 13500  # Design capacity of the battery [Ah]
+R = 0.1  # Internal resistance of the battery [Ohm]
 simulation_duration = 25  # Simulation duration in seconds
 
 def simulate_degrading_battery(V0, alpha, Q, R, simulation_duration):
@@ -21,6 +21,18 @@ def simulate_degrading_battery(V0, alpha, Q, R, simulation_duration):
 
     start_time = rospy.Time.now()
 
+<<<<<<< HEAD
+    while time.time() - start_time < simulation_duration:
+        print(f"{time.time() - start_time:.2f}s\t\t{V:.2f}V")
+        
+        i = 0.1  # Example current drawn [A]
+        
+        # Update the accumulated discharge
+        current_capacity += i * (time.time() - start_time)
+
+        # Update the battery voltage using the provided model
+        V = V0 + alpha * ((1 - current_capacity )/ Q) - R * i
+=======
     while rospy.Time.now() - start_time < rospy.Duration.from_sec(simulation_duration):
         print(f"{(rospy.Time.now() - start_time).to_sec():.2f}s\t\t{V:.2f}V")
 
@@ -32,7 +44,10 @@ def simulate_degrading_battery(V0, alpha, Q, R, simulation_duration):
 
         # Update battery voltage using the provided model
         V = V0 + alpha * (1 - current_capacity / Q) - R * i
+>>>>>>> 7dfbd54eebc4ba928fe23e979986aa31c22c4a47
 
+
+        
         return V
 
 
