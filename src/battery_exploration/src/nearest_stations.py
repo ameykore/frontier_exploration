@@ -29,6 +29,7 @@ def find_nearest_station(rosbot_position, charging_stations):
         print(f"Distance: {distance}\n")
         if distance < min_distance:
             min_distance = distance
+            ros_msg.distance = min_distance
             nearest_station = station_position
 
     return nearest_station
@@ -43,7 +44,6 @@ def publish_battery_location(location):
     ros_msg.orientation_y = position.orientation.y
     ros_msg.orientation_z = position.orientation.z
     ros_msg.orientation_w = position.orientation.w
-    ros_msg.distance = 10
     pub.publish(ros_msg)
 
 def feedback_callback(feedback):

@@ -4,6 +4,7 @@ import rospy
 import std_msgs.msg as msg
 import time
 from move_base_msgs.msg import MoveBaseActionFeedback
+from battery_exploration.msg import battery_station
 
 # Parameters
 battery_voltage = 24.2  # Fully charged voltage [V]
@@ -38,23 +39,21 @@ def simulate_degrading_battery(V0, alpha, Q, R, simulation_duration):
         return V
 
 
-def feedback_callback(feedback):
+def feedback_callback(station):
     global battery_voltage  # Use the global variable
-    position = feedback.feedback.base_position.pose.position
-
-    # Round the coordinates to two decimal places
-    x = round(position.x, 2)
-    y = round(position.y, 2)
-    z = round(position.z, 2)
 
     # Update battery voltage based on the new position 
-    if battery_voltage > 0:
+    if battery_voltage > 4:
         # print("Battery is not at zero")
-        battery_voltage = simulate_degrading_battery(battery_voltage, alpha, Q, R, simulation_duration)  # Adjust this value as needed
-        # battery_voltage -= 0.001
+        #battery_voltage = simulate_degrading_battery(battery_voltage, alpha, Q, R, simulation_duration)  # Adjust this value as needed
+        battery_voltage -= 0.001
     else:
-        print("Battery is at zero")
-        battery_voltage = 0
+        print("Battery below threshold")
+        print(f"staion distance: {station.distance}")
+        if round(station.distance, 2) < 0.5:
+            print("charging...")
+            rospy.sleep(10)
+            battery_voltage = 25
 
     print(f"Updated battery voltage: {battery_voltage}")
 
@@ -64,9 +63,10 @@ def talker():
     pub = rospy.Publisher('Battery/voltage', msg.Float32, queue_size=10)
     rospy.init_node('battery_status', anonymous=True)
 
-    rate = rospy.Rate(10) # 10hz
+
+    rate = rospy.Rate(5) # 10hz
     while not rospy.is_shutdown():
-        rospy.Subscriber("move_base/feedback", MoveBaseActionFeedback, feedback_callback)
+        rospy.Subscriber("battery_location", battery_station, feedback_callback)
         pub.publish(battery_voltage)
         rate.sleep()
 

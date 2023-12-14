@@ -47,6 +47,6 @@
 
   <!-- For battery code -->
   <!-- <node name="battery_receiver" pkg="battery_exploration" type="rosbotmove.py" /> -->
-  <node name="battery_status" pkg="battery_exploration" type="battery_decay_publisher.py" output="screen"/>
+  <!-- <node name="battery_status" pkg="battery_exploration" type="battery_decay_publisher.py" output="screen"/> -->
 
 </launch>
