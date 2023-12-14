@@ -13,15 +13,15 @@
 [ 40%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp.o[0m
 [ 45%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o[0m
 [35m[1mScanning dependencies of target rplidarNodeClient[0m
-[ 55%] [32mBuilding CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o[0m
-[ 60%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_async_transceiver.cpp.o[0m
-[ 65%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_crc.cpp.o[0m
-[ 70%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_lidar_driver.cpp.o[0m
-[ 75%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_lidarprotocol_codec.cpp.o[0m
-[ 80%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_serial_channel.cpp.o[0m
-[ 85%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_tcp_channel.cpp.o[0m
-[ 90%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o[0m
 [ 95%] [32m[1mLinking CXX executable /home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNode[0m
 [ 95%] Built target rplidarNode
 [100%] [32m[1mLinking CXX executable /home/ekin/frontier_exploration/devel/.private/rplidar_ros/lib/rplidar_ros/rplidarNodeClient[0m

@@ -5,11 +5,12 @@ import math
 import std_msgs.msg as msg
 from std_msgs.msg import Float32MultiArray
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal, MoveBaseActionFeedback
-
+from gazebo_msgs.msg import ModelState
+from gazebo_msgs.srv import SpawnModel, SpawnModelRequest
 
 # Constants
 position = None
-battry_locations = [[0.0,0.0],[-2.0,-3.0],[2.0,-4.0],[2.0,-1.0],[-2.0,2.0],[1.0,3.0]]
+battery_locations = [[0.0,0.0],[-2.0,-3.0],[2.0,-4.0],[2.0,-1.0],[-2.0,2.0],[1.0,3.0]]
 
 def calculate_distance(x1, y1, x2, y2):
     ans = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
@@ -38,7 +39,7 @@ def publish_battery_location(location):
 def feedback_callback(feedback):
     global position
     position = feedback.feedback.base_position.pose
-    battery_location = find_nearest_station(position, battry_locations)
+    battery_location = find_nearest_station(position, battery_locations)
     print(f"battery_location: {battery_location}")
     publish_battery_location(battery_location)
     # print(f"Postion: {position}\n")

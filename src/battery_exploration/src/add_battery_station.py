@@ -64,7 +64,7 @@ def spawn_battery():
         spawn_model_request.model_xml = cylinder_xml
         spawn_model_request.robot_namespace = "cylinder" + str(i)
         spawn_model_request.initial_pose = initial_pose
-
+        
 
 
         try:
