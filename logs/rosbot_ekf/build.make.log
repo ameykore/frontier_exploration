@@ -133,3 +133,4 @@
 [ 92%] Built target msgs_conversion
 [100%] [32m[1mLinking CXX executable /home/ekin/frontier_exploration/devel/.private/rosbot_ekf/lib/rosbot_ekf/cmd_vel_ws2812b_example[0m
 [100%] Built target cmd_vel_ws2812b_example
+[100%] Built target rosbot_ekf_generate_messages
