@@ -1,1 +1,1 @@
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/Reset.h
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/include/gazebo_ros_battery/Reset.h

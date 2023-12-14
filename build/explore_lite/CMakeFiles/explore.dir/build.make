@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/m-explore/explore
+CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/m-explore/explore
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/explore_lite
+CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/explore_lite
 
 # Include any dependencies generated for this target.
 include CMakeFiles/explore.dir/depend.make
@@ -58,43 +58,43 @@ include CMakeFiles/explore.dir/progress.make
 include CMakeFiles/explore.dir/flags.make
 
 CMakeFiles/explore.dir/src/costmap_client.cpp.o: CMakeFiles/explore.dir/flags.make
-CMakeFiles/explore.dir/src/costmap_client.cpp.o: /home/ekin/frontier_exploration/src/m-explore/explore/src/costmap_client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ekin/frontier_exploration/build/explore_lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/explore.dir/src/costmap_client.cpp.o -c /home/ekin/frontier_exploration/src/m-explore/explore/src/costmap_client.cpp
+CMakeFiles/explore.dir/src/costmap_client.cpp.o: /frontier_expo/frontier_exploration/src/m-explore/explore/src/costmap_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/frontier_expo/frontier_exploration/build/explore_lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/explore.dir/src/costmap_client.cpp.o -c /frontier_expo/frontier_exploration/src/m-explore/explore/src/costmap_client.cpp
 
 CMakeFiles/explore.dir/src/costmap_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/explore.dir/src/costmap_client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ekin/frontier_exploration/src/m-explore/explore/src/costmap_client.cpp > CMakeFiles/explore.dir/src/costmap_client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /frontier_expo/frontier_exploration/src/m-explore/explore/src/costmap_client.cpp > CMakeFiles/explore.dir/src/costmap_client.cpp.i
 
 CMakeFiles/explore.dir/src/costmap_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/explore.dir/src/costmap_client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ekin/frontier_exploration/src/m-explore/explore/src/costmap_client.cpp -o CMakeFiles/explore.dir/src/costmap_client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /frontier_expo/frontier_exploration/src/m-explore/explore/src/costmap_client.cpp -o CMakeFiles/explore.dir/src/costmap_client.cpp.s
 
 CMakeFiles/explore.dir/src/explore.cpp.o: CMakeFiles/explore.dir/flags.make
-CMakeFiles/explore.dir/src/explore.cpp.o: /home/ekin/frontier_exploration/src/m-explore/explore/src/explore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ekin/frontier_exploration/build/explore_lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/explore.dir/src/explore.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/explore.dir/src/explore.cpp.o -c /home/ekin/frontier_exploration/src/m-explore/explore/src/explore.cpp
+CMakeFiles/explore.dir/src/explore.cpp.o: /frontier_expo/frontier_exploration/src/m-explore/explore/src/explore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/frontier_expo/frontier_exploration/build/explore_lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/explore.dir/src/explore.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/explore.dir/src/explore.cpp.o -c /frontier_expo/frontier_exploration/src/m-explore/explore/src/explore.cpp
 
 CMakeFiles/explore.dir/src/explore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/explore.dir/src/explore.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ekin/frontier_exploration/src/m-explore/explore/src/explore.cpp > CMakeFiles/explore.dir/src/explore.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /frontier_expo/frontier_exploration/src/m-explore/explore/src/explore.cpp > CMakeFiles/explore.dir/src/explore.cpp.i
 
 CMakeFiles/explore.dir/src/explore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/explore.dir/src/explore.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ekin/frontier_exploration/src/m-explore/explore/src/explore.cpp -o CMakeFiles/explore.dir/src/explore.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /frontier_expo/frontier_exploration/src/m-explore/explore/src/explore.cpp -o CMakeFiles/explore.dir/src/explore.cpp.s
 
 CMakeFiles/explore.dir/src/frontier_search.cpp.o: CMakeFiles/explore.dir/flags.make
-CMakeFiles/explore.dir/src/frontier_search.cpp.o: /home/ekin/frontier_exploration/src/m-explore/explore/src/frontier_search.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ekin/frontier_exploration/build/explore_lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/explore.dir/src/frontier_search.cpp.o -c /home/ekin/frontier_exploration/src/m-explore/explore/src/frontier_search.cpp
+CMakeFiles/explore.dir/src/frontier_search.cpp.o: /frontier_expo/frontier_exploration/src/m-explore/explore/src/frontier_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/frontier_expo/frontier_exploration/build/explore_lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/explore.dir/src/frontier_search.cpp.o -c /frontier_expo/frontier_exploration/src/m-explore/explore/src/frontier_search.cpp
 
 CMakeFiles/explore.dir/src/frontier_search.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/explore.dir/src/frontier_search.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ekin/frontier_exploration/src/m-explore/explore/src/frontier_search.cpp > CMakeFiles/explore.dir/src/frontier_search.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /frontier_expo/frontier_exploration/src/m-explore/explore/src/frontier_search.cpp > CMakeFiles/explore.dir/src/frontier_search.cpp.i
 
 CMakeFiles/explore.dir/src/frontier_search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/explore.dir/src/frontier_search.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ekin/frontier_exploration/src/m-explore/explore/src/frontier_search.cpp -o CMakeFiles/explore.dir/src/frontier_search.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /frontier_expo/frontier_exploration/src/m-explore/explore/src/frontier_search.cpp -o CMakeFiles/explore.dir/src/frontier_search.cpp.s
 
 # Object files for target explore
 explore_OBJECTS = \
@@ -105,51 +105,51 @@ explore_OBJECTS = \
 # External object files for target explore
 explore_EXTERNAL_OBJECTS =
 
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: CMakeFiles/explore.dir/src/costmap_client.cpp.o
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: CMakeFiles/explore.dir/src/explore.cpp.o
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: CMakeFiles/explore.dir/src/frontier_search.cpp.o
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: CMakeFiles/explore.dir/build.make
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libcostmap_2d.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/liblayers.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/liblaser_geometry.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libclass_loader.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libroslib.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/librospack.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libvoxel_grid.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libtf.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libtf2_ros.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libactionlib.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libmessage_filters.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libroscpp.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libtf2.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/librosconsole.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/librostime.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libcpp_common.so
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: CMakeFiles/explore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ekin/frontier_exploration/build/explore_lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore"
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: CMakeFiles/explore.dir/src/costmap_client.cpp.o
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: CMakeFiles/explore.dir/src/explore.cpp.o
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: CMakeFiles/explore.dir/src/frontier_search.cpp.o
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: CMakeFiles/explore.dir/build.make
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libcostmap_2d.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/liblayers.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/liblaser_geometry.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libclass_loader.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libdl.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libroslib.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/librospack.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libvoxel_grid.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libtf.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libtf2_ros.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libactionlib.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libmessage_filters.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libroscpp.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libpthread.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libxmlrpcpp.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libtf2.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/librosconsole.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libroscpp_serialization.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/librostime.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /opt/ros/noetic/lib/libcpp_common.so
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore: CMakeFiles/explore.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/frontier_expo/frontier_exploration/build/explore_lite/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/explore.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/explore.dir/build: /home/ekin/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore
+CMakeFiles/explore.dir/build: /frontier_expo/frontier_exploration/devel/.private/explore_lite/lib/explore_lite/explore
 
 .PHONY : CMakeFiles/explore.dir/build
 
@@ -158,6 +158,6 @@ CMakeFiles/explore.dir/clean:
 .PHONY : CMakeFiles/explore.dir/clean
 
 CMakeFiles/explore.dir/depend:
-	cd /home/ekin/frontier_exploration/build/explore_lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ekin/frontier_exploration/src/m-explore/explore /home/ekin/frontier_exploration/src/m-explore/explore /home/ekin/frontier_exploration/build/explore_lite /home/ekin/frontier_exploration/build/explore_lite /home/ekin/frontier_exploration/build/explore_lite/CMakeFiles/explore.dir/DependInfo.cmake --color=$(COLOR)
+	cd /frontier_expo/frontier_exploration/build/explore_lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /frontier_expo/frontier_exploration/src/m-explore/explore /frontier_expo/frontier_exploration/src/m-explore/explore /frontier_expo/frontier_exploration/build/explore_lite /frontier_expo/frontier_exploration/build/explore_lite /frontier_expo/frontier_exploration/build/explore_lite/CMakeFiles/explore.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/explore.dir/depend
 

@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/ekin/frontier_exploration/devel/.private/multirobot_map_merge:$CMAKE_PREFIX_PATH"
-export PWD='/home/ekin/frontier_exploration/build/multirobot_map_merge'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/ekin/frontier_exploration/devel/.private/multirobot_map_merge/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/ekin/frontier_exploration/src/m-explore/map_merge:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/frontier_expo/frontier_exploration/devel/.private/multirobot_map_merge:$CMAKE_PREFIX_PATH"
+export PWD='/frontier_expo/frontier_exploration/build/multirobot_map_merge'
+export ROSLISP_PACKAGE_DIRECTORIES="/frontier_expo/frontier_exploration/devel/.private/multirobot_map_merge/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/frontier_expo/frontier_exploration/src/m-explore/map_merge:$ROS_PACKAGE_PATH"

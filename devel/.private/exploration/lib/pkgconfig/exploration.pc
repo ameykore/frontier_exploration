@@ -1,4 +1,4 @@
-prefix=/home/ekin/frontier_exploration/devel/.private/exploration
+prefix=/frontier_expo/frontier_exploration/devel/.private/exploration
 
 Name: exploration
 Description: Description of exploration

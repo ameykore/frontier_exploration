@@ -12,16 +12,16 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in '/home/ekin/frontier_exploration/devel;/home/ekin/catkintut_ws/devel;/home/ekin/catkin_ws/devel;/opt/ros/noetic'.split(';'):
+    for workspace in '/frontier_expo/frontier_exploration/devel;/opt/ros/noetic'.split(';'):
         python_path = os.path.join(workspace, 'lib/python3/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/ekin/frontier_exploration/devel/.private/rosbot_navigation/env.sh')
+code = generate_environment_script('/frontier_expo/frontier_exploration/devel/.private/rosbot_navigation/env.sh')
 
-output_filename = '/home/ekin/frontier_exploration/build/rosbot_navigation/catkin_generated/setup_cached.sh'
+output_filename = '/frontier_expo/frontier_exploration/build/rosbot_navigation/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

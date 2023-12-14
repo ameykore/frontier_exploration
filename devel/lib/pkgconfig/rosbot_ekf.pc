@@ -1,1 +1,1 @@
-/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/lib/pkgconfig/rosbot_ekf.pc
+/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/lib/pkgconfig/rosbot_ekf.pc

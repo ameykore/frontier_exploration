@@ -1,5 +1,5 @@
-Symlinking /home/ekin/frontier_exploration/devel/lib/libcombine_grids.a
-Symlinking /home/ekin/frontier_exploration/devel/lib/pkgconfig/multirobot_map_merge.pc
-Symlinking /home/ekin/frontier_exploration/devel/lib/multirobot_map_merge/map_merge
-Symlinking /home/ekin/frontier_exploration/devel/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig-version.cmake
-Symlinking /home/ekin/frontier_exploration/devel/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/lib/libcombine_grids.a
+Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/multirobot_map_merge.pc
+Symlinking /frontier_expo/frontier_exploration/devel/lib/multirobot_map_merge/map_merge
+Symlinking /frontier_expo/frontier_exploration/devel/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig-version.cmake
+Symlinking /frontier_expo/frontier_exploration/devel/share/multirobot_map_merge/cmake/multirobot_map_mergeConfig.cmake

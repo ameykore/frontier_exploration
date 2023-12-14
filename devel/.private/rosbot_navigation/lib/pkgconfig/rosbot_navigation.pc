@@ -1,4 +1,4 @@
-prefix=/home/ekin/frontier_exploration/devel/.private/rosbot_navigation
+prefix=/frontier_expo/frontier_exploration/devel/.private/rosbot_navigation
 
 Name: rosbot_navigation
 Description: Description of rosbot_navigation

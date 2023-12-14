@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/m-explore/explore
+CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/m-explore/explore
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/explore_lite
+CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/explore_lite
 
 # Utility rule file for clean_test_results_explore_lite.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/explore_lite
 include CMakeFiles/clean_test_results_explore_lite.dir/progress.make
 
 CMakeFiles/clean_test_results_explore_lite:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/ekin/frontier_exploration/build/explore_lite/test_results/explore_lite
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /frontier_expo/frontier_exploration/build/explore_lite/test_results/explore_lite
 
 clean_test_results_explore_lite: CMakeFiles/clean_test_results_explore_lite
 clean_test_results_explore_lite: CMakeFiles/clean_test_results_explore_lite.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_explore_lite.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_explore_lite.dir/clean
 
 CMakeFiles/clean_test_results_explore_lite.dir/depend:
-	cd /home/ekin/frontier_exploration/build/explore_lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ekin/frontier_exploration/src/m-explore/explore /home/ekin/frontier_exploration/src/m-explore/explore /home/ekin/frontier_exploration/build/explore_lite /home/ekin/frontier_exploration/build/explore_lite /home/ekin/frontier_exploration/build/explore_lite/CMakeFiles/clean_test_results_explore_lite.dir/DependInfo.cmake --color=$(COLOR)
+	cd /frontier_expo/frontier_exploration/build/explore_lite && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /frontier_expo/frontier_exploration/src/m-explore/explore /frontier_expo/frontier_exploration/src/m-explore/explore /frontier_expo/frontier_exploration/build/explore_lite /frontier_expo/frontier_exploration/build/explore_lite /frontier_expo/frontier_exploration/build/explore_lite/CMakeFiles/clean_test_results_explore_lite.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_explore_lite.dir/depend
 

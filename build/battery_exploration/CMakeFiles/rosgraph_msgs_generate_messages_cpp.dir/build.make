@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/battery_exploration
+CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/battery_exploration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/battery_exploration
+CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/battery_exploration
 
 # Utility rule file for rosgraph_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
-	cd /home/ekin/frontier_exploration/build/battery_exploration && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ekin/frontier_exploration/src/battery_exploration /home/ekin/frontier_exploration/src/battery_exploration /home/ekin/frontier_exploration/build/battery_exploration /home/ekin/frontier_exploration/build/battery_exploration /home/ekin/frontier_exploration/build/battery_exploration/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /frontier_expo/frontier_exploration/build/battery_exploration && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /frontier_expo/frontier_exploration/src/battery_exploration /frontier_expo/frontier_exploration/src/battery_exploration /frontier_expo/frontier_exploration/build/battery_exploration /frontier_expo/frontier_exploration/build/battery_exploration /frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 

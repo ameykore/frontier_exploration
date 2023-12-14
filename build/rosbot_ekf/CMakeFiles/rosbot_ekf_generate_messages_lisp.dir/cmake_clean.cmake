@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ekin/frontier_exploration/devel/.private/rosbot_ekf/share/common-lisp/ros/rosbot_ekf/srv/Configuration.lisp"
+  "/frontier_expo/frontier_exploration/devel/.private/rosbot_ekf/share/common-lisp/ros/rosbot_ekf/srv/Configuration.lisp"
   "CMakeFiles/rosbot_ekf_generate_messages_lisp"
 )
 

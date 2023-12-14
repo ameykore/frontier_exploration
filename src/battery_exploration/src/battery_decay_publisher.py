@@ -2,9 +2,38 @@
 # license removed for brevity
 import rospy
 import std_msgs.msg as msg
+import time
 from move_base_msgs.msg import MoveBaseActionFeedback
 
-battery_voltage = 25
+# Parameters
+battery_voltage = 25  # Fully charged voltage [V]
+alpha = 0.2  # Linear discharge coefficient
+Q = 2.0  # Design capacity of the battery [Ah]
+R = 0.2  # Internal resistance of the battery [Ohm]
+simulation_duration = 25  # Simulation duration in seconds
+
+def simulate_degrading_battery(V0, alpha, Q, R, simulation_duration):
+    current_capacity = 0  # Accumulated discharge [Ah]
+    V = V0  # Initial voltage
+
+    print(f"Time\t\tVoltage")
+    print("--------------------")
+
+    start_time = time.time()
+
+    while time.time() - start_time < simulation_duration:
+        print(f"{time.time() - start_time:.2f}s\t\t{V:.2f}V")
+        
+        i = 0.4  # Example current drawn [A]
+        
+        # Update the accumulated discharge
+        current_capacity += i * (time.time() - start_time)
+
+        # Update the battery voltage using the provided model
+        V = V0 + alpha * (1 - current_capacity / Q) - R * i
+
+        return V
+
 
 def feedback_callback(feedback):
     global battery_voltage  # Use the global variable
@@ -18,7 +47,7 @@ def feedback_callback(feedback):
     # Update battery voltage based on the new position 
     if battery_voltage > 0:
         # print("Battery is not at zero")
-        battery_voltage -= 0.01  # Adjust this value as needed
+        battery_voltage = simulate_degrading_battery(battery_voltage, alpha, Q, R, simulation_duration)  # Adjust this value as needed
     else:
         print("Battery is at zero")
         battery_voltage = 0

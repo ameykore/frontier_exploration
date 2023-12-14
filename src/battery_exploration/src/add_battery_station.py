@@ -75,7 +75,7 @@ def spawn_battery():
         except rospy.ServiceException as e:
             rospy.logerr("Spawn service call failed: %s", e)
 
-        rospy.sleep(1.0)  # Give Gazebo some time to update the model
+        # rospy.sleep(1.0)  # Give Gazebo some time to update the model
         pose_publisher.publish(initial_pose)
 
     # Spin to keep the node alive

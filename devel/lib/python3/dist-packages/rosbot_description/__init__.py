@@ -1,1 +1,1 @@
-/home/ekin/frontier_exploration/devel/.private/rosbot_description/lib/python3/dist-packages/rosbot_description/__init__.py
+/frontier_expo/frontier_exploration/devel/.private/rosbot_description/lib/python3/dist-packages/rosbot_description/__init__.py

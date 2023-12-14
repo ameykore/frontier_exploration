@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/ekin/frontier_exploration/src/rosbot_ekf/src/msgs_conversion.cpp
+/frontier_expo/frontier_exploration/src/rosbot_ekf/src/msgs_conversion.cpp
 ros/ros.h
-/home/ekin/frontier_exploration/src/rosbot_ekf/src/ros/ros.h
+/frontier_expo/frontier_exploration/src/rosbot_ekf/src/ros/ros.h
 geometry_msgs/PoseStamped.h
-/home/ekin/frontier_exploration/src/rosbot_ekf/src/geometry_msgs/PoseStamped.h
+/frontier_expo/frontier_exploration/src/rosbot_ekf/src/geometry_msgs/PoseStamped.h
 nav_msgs/Odometry.h
-/home/ekin/frontier_exploration/src/rosbot_ekf/src/nav_msgs/Odometry.h
+/frontier_expo/frontier_exploration/src/rosbot_ekf/src/nav_msgs/Odometry.h
 string
 -
 

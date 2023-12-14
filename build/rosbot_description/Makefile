@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ekin/frontier_exploration/src/rosbot_description/src/rosbot_description
+CMAKE_SOURCE_DIR = /frontier_expo/frontier_exploration/src/rosbot_description/src/rosbot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ekin/frontier_exploration/build/rosbot_description
+CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/rosbot_description
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/rosbot_description/CMakeFiles /home/ekin/frontier_exploration/build/rosbot_description/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/rosbot_description/CMakeFiles /frontier_expo/frontier_exploration/build/rosbot_description/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ekin/frontier_exploration/build/rosbot_description/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /frontier_expo/frontier_exploration/build/rosbot_description/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

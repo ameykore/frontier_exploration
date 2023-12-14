@@ -1,1 +1,1 @@
-/home/ekin/frontier_exploration/devel/.private/rosbot_gazebo/share/rosbot_gazebo/cmake/rosbot_gazeboConfig-version.cmake
+/frontier_expo/frontier_exploration/devel/.private/rosbot_gazebo/share/rosbot_gazebo/cmake/rosbot_gazeboConfig-version.cmake

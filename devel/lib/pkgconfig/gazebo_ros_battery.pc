@@ -1,1 +1,1 @@
-/home/ekin/frontier_exploration/devel/.private/gazebo_ros_battery/lib/pkgconfig/gazebo_ros_battery.pc
+/frontier_expo/frontier_exploration/devel/.private/gazebo_ros_battery/lib/pkgconfig/gazebo_ros_battery.pc
