@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/battery_exploration
 include CMakeFiles/battery_exploration_generate_messages_nodejs.dir/progress.make
 
 CMakeFiles/battery_exploration_generate_messages_nodejs: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/gennodejs/ros/battery_exploration/msg/battery_station.js
+CMakeFiles/battery_exploration_generate_messages_nodejs: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/gennodejs/ros/battery_exploration/msg/station.js
 
 
 /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/gennodejs/ros/battery_exploration/msg/battery_station.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
@@ -61,8 +62,14 @@ CMakeFiles/battery_exploration_generate_messages_nodejs: /frontier_expo/frontier
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from battery_exploration/battery_station.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg -Ibattery_exploration:/frontier_expo/frontier_exploration/src/battery_exploration/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p battery_exploration -o /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/gennodejs/ros/battery_exploration/msg
 
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/gennodejs/ros/battery_exploration/msg/station.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/gennodejs/ros/battery_exploration/msg/station.js: /frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from battery_exploration/station.msg"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg -Ibattery_exploration:/frontier_expo/frontier_exploration/src/battery_exploration/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p battery_exploration -o /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/gennodejs/ros/battery_exploration/msg
+
 battery_exploration_generate_messages_nodejs: CMakeFiles/battery_exploration_generate_messages_nodejs
 battery_exploration_generate_messages_nodejs: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/gennodejs/ros/battery_exploration/msg/battery_station.js
+battery_exploration_generate_messages_nodejs: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/gennodejs/ros/battery_exploration/msg/station.js
 battery_exploration_generate_messages_nodejs: CMakeFiles/battery_exploration_generate_messages_nodejs.dir/build.make
 
 .PHONY : battery_exploration_generate_messages_nodejs

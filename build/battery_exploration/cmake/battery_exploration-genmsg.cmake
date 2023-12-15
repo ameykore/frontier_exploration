@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "battery_exploration: 1 messages, 0 services")
+message(STATUS "battery_exploration: 2 messages, 0 services")
 
 set(MSG_I_FLAGS "-Ibattery_exploration:/frontier_expo/frontier_exploration/src/battery_exploration/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
@@ -22,6 +22,11 @@ add_custom_target(_battery_exploration_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "battery_exploration" "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg" ""
 )
 
+get_filename_component(_filename "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg" NAME_WE)
+add_custom_target(_battery_exploration_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "battery_exploration" "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg" ""
+)
+
 #
 #  langs = gencpp;geneus;genlisp;gennodejs;genpy
 #
@@ -30,6 +35,12 @@ add_custom_target(_battery_exploration_generate_messages_check_deps_${_filename}
 ### Generating Messages
 _generate_msg_cpp(battery_exploration
   "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/battery_exploration
+)
+_generate_msg_cpp(battery_exploration
+  "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/battery_exploration
@@ -51,6 +62,8 @@ add_dependencies(battery_exploration_generate_messages battery_exploration_gener
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg" NAME_WE)
 add_dependencies(battery_exploration_generate_messages_cpp _battery_exploration_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg" NAME_WE)
+add_dependencies(battery_exploration_generate_messages_cpp _battery_exploration_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(battery_exploration_gencpp)
@@ -63,6 +76,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS battery_exploration_generate_messag
 ### Generating Messages
 _generate_msg_eus(battery_exploration
   "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/battery_exploration
+)
+_generate_msg_eus(battery_exploration
+  "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/battery_exploration
@@ -84,6 +103,8 @@ add_dependencies(battery_exploration_generate_messages battery_exploration_gener
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg" NAME_WE)
 add_dependencies(battery_exploration_generate_messages_eus _battery_exploration_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg" NAME_WE)
+add_dependencies(battery_exploration_generate_messages_eus _battery_exploration_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(battery_exploration_geneus)
@@ -96,6 +117,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS battery_exploration_generate_messag
 ### Generating Messages
 _generate_msg_lisp(battery_exploration
   "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/battery_exploration
+)
+_generate_msg_lisp(battery_exploration
+  "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/battery_exploration
@@ -117,6 +144,8 @@ add_dependencies(battery_exploration_generate_messages battery_exploration_gener
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg" NAME_WE)
 add_dependencies(battery_exploration_generate_messages_lisp _battery_exploration_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg" NAME_WE)
+add_dependencies(battery_exploration_generate_messages_lisp _battery_exploration_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(battery_exploration_genlisp)
@@ -129,6 +158,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS battery_exploration_generate_messag
 ### Generating Messages
 _generate_msg_nodejs(battery_exploration
   "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/battery_exploration
+)
+_generate_msg_nodejs(battery_exploration
+  "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/battery_exploration
@@ -150,6 +185,8 @@ add_dependencies(battery_exploration_generate_messages battery_exploration_gener
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg" NAME_WE)
 add_dependencies(battery_exploration_generate_messages_nodejs _battery_exploration_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg" NAME_WE)
+add_dependencies(battery_exploration_generate_messages_nodejs _battery_exploration_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
 add_custom_target(battery_exploration_gennodejs)
@@ -162,6 +199,12 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS battery_exploration_generate_messag
 ### Generating Messages
 _generate_msg_py(battery_exploration
   "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/battery_exploration
+)
+_generate_msg_py(battery_exploration
+  "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/battery_exploration
@@ -182,6 +225,8 @@ add_dependencies(battery_exploration_generate_messages battery_exploration_gener
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg" NAME_WE)
+add_dependencies(battery_exploration_generate_messages_py _battery_exploration_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg" NAME_WE)
 add_dependencies(battery_exploration_generate_messages_py _battery_exploration_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

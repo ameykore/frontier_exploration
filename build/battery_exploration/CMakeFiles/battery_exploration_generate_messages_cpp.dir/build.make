@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/battery_exploration
 include CMakeFiles/battery_exploration_generate_messages_cpp.dir/progress.make
 
 CMakeFiles/battery_exploration_generate_messages_cpp: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/include/battery_exploration/battery_station.h
+CMakeFiles/battery_exploration_generate_messages_cpp: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/include/battery_exploration/station.h
 
 
 /frontier_expo/frontier_exploration/devel/.private/battery_exploration/include/battery_exploration/battery_station.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
@@ -62,8 +63,15 @@ CMakeFiles/battery_exploration_generate_messages_cpp: /frontier_expo/frontier_ex
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from battery_exploration/battery_station.msg"
 	cd /frontier_expo/frontier_exploration/src/battery_exploration && /frontier_expo/frontier_exploration/build/battery_exploration/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg -Ibattery_exploration:/frontier_expo/frontier_exploration/src/battery_exploration/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p battery_exploration -o /frontier_expo/frontier_exploration/devel/.private/battery_exploration/include/battery_exploration -e /opt/ros/noetic/share/gencpp/cmake/..
 
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/include/battery_exploration/station.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/include/battery_exploration/station.h: /frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/include/battery_exploration/station.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from battery_exploration/station.msg"
+	cd /frontier_expo/frontier_exploration/src/battery_exploration && /frontier_expo/frontier_exploration/build/battery_exploration/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg -Ibattery_exploration:/frontier_expo/frontier_exploration/src/battery_exploration/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p battery_exploration -o /frontier_expo/frontier_exploration/devel/.private/battery_exploration/include/battery_exploration -e /opt/ros/noetic/share/gencpp/cmake/..
+
 battery_exploration_generate_messages_cpp: CMakeFiles/battery_exploration_generate_messages_cpp
 battery_exploration_generate_messages_cpp: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/include/battery_exploration/battery_station.h
+battery_exploration_generate_messages_cpp: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/include/battery_exploration/station.h
 battery_exploration_generate_messages_cpp: CMakeFiles/battery_exploration_generate_messages_cpp.dir/build.make
 
 .PHONY : battery_exploration_generate_messages_cpp

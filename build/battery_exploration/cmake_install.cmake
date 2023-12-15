@@ -129,7 +129,10 @@ file(INSTALL DESTINATION "/frontier_expo/frontier_exploration/install" TYPE FILE
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/battery_exploration/msg" TYPE FILE FILES "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/battery_exploration/msg" TYPE FILE FILES
+    "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg"
+    "/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

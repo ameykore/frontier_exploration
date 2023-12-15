@@ -26,22 +26,14 @@ struct battery_station_
   battery_station_()
     : x(0.0)
     , y(0.0)
-    , z(0.0)
-    , orientation_x(0.0)
-    , orientation_y(0.0)
-    , orientation_z(0.0)
-    , orientation_w(0.0)
-    , distance(0.0)  {
+    , distance(0.0)
+    , battery(0.0)  {
     }
   battery_station_(const ContainerAllocator& _alloc)
     : x(0.0)
     , y(0.0)
-    , z(0.0)
-    , orientation_x(0.0)
-    , orientation_y(0.0)
-    , orientation_z(0.0)
-    , orientation_w(0.0)
-    , distance(0.0)  {
+    , distance(0.0)
+    , battery(0.0)  {
   (void)_alloc;
     }
 
@@ -53,23 +45,11 @@ struct battery_station_
    typedef float _y_type;
   _y_type y;
 
-   typedef float _z_type;
-  _z_type z;
-
-   typedef float _orientation_x_type;
-  _orientation_x_type orientation_x;
-
-   typedef float _orientation_y_type;
-  _orientation_y_type orientation_y;
-
-   typedef float _orientation_z_type;
-  _orientation_z_type orientation_z;
-
-   typedef float _orientation_w_type;
-  _orientation_w_type orientation_w;
-
    typedef float _distance_type;
   _distance_type distance;
+
+   typedef float _battery_type;
+  _battery_type battery;
 
 
 
@@ -102,12 +82,8 @@ bool operator==(const ::battery_exploration::battery_station_<ContainerAllocator
 {
   return lhs.x == rhs.x &&
     lhs.y == rhs.y &&
-    lhs.z == rhs.z &&
-    lhs.orientation_x == rhs.orientation_x &&
-    lhs.orientation_y == rhs.orientation_y &&
-    lhs.orientation_z == rhs.orientation_z &&
-    lhs.orientation_w == rhs.orientation_w &&
-    lhs.distance == rhs.distance;
+    lhs.distance == rhs.distance &&
+    lhs.battery == rhs.battery;
 }
 
 template<typename ContainerAllocator1, typename ContainerAllocator2>
@@ -164,12 +140,12 @@ struct MD5Sum< ::battery_exploration::battery_station_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "66744cc284356957a3941b5cf863c900";
+    return "eb1e3cafe78d7101d500adbbdedc5d81";
   }
 
   static const char* value(const ::battery_exploration::battery_station_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x66744cc284356957ULL;
-  static const uint64_t static_value2 = 0xa3941b5cf863c900ULL;
+  static const uint64_t static_value1 = 0xeb1e3cafe78d7101ULL;
+  static const uint64_t static_value2 = 0xd500adbbdedc5d81ULL;
 };
 
 template<class ContainerAllocator>
@@ -190,12 +166,8 @@ struct Definition< ::battery_exploration::battery_station_<ContainerAllocator> >
   {
     return "float32 x\n"
 "float32 y\n"
-"float32 z\n"
-"float32 orientation_x\n"
-"float32 orientation_y\n"
-"float32 orientation_z\n"
-"float32 orientation_w\n"
 "float32 distance\n"
+"float32 battery\n"
 ;
   }
 
@@ -216,12 +188,8 @@ namespace serialization
     {
       stream.next(m.x);
       stream.next(m.y);
-      stream.next(m.z);
-      stream.next(m.orientation_x);
-      stream.next(m.orientation_y);
-      stream.next(m.orientation_z);
-      stream.next(m.orientation_w);
       stream.next(m.distance);
+      stream.next(m.battery);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -244,18 +212,10 @@ struct Printer< ::battery_exploration::battery_station_<ContainerAllocator> >
     Printer<float>::stream(s, indent + "  ", v.x);
     s << indent << "y: ";
     Printer<float>::stream(s, indent + "  ", v.y);
-    s << indent << "z: ";
-    Printer<float>::stream(s, indent + "  ", v.z);
-    s << indent << "orientation_x: ";
-    Printer<float>::stream(s, indent + "  ", v.orientation_x);
-    s << indent << "orientation_y: ";
-    Printer<float>::stream(s, indent + "  ", v.orientation_y);
-    s << indent << "orientation_z: ";
-    Printer<float>::stream(s, indent + "  ", v.orientation_z);
-    s << indent << "orientation_w: ";
-    Printer<float>::stream(s, indent + "  ", v.orientation_w);
     s << indent << "distance: ";
     Printer<float>::stream(s, indent + "  ", v.distance);
+    s << indent << "battery: ";
+    Printer<float>::stream(s, indent + "  ", v.battery);
   }
 };
 

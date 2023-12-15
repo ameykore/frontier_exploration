@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "/frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/manifest.l"
   "/frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/msg/battery_station.l"
+  "/frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/msg/station.l"
   "CMakeFiles/battery_exploration_generate_messages_eus"
 )
 

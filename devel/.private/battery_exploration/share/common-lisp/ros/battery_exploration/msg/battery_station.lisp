@@ -17,34 +17,14 @@
     :initarg :y
     :type cl:float
     :initform 0.0)
-   (z
-    :reader z
-    :initarg :z
-    :type cl:float
-    :initform 0.0)
-   (orientation_x
-    :reader orientation_x
-    :initarg :orientation_x
-    :type cl:float
-    :initform 0.0)
-   (orientation_y
-    :reader orientation_y
-    :initarg :orientation_y
-    :type cl:float
-    :initform 0.0)
-   (orientation_z
-    :reader orientation_z
-    :initarg :orientation_z
-    :type cl:float
-    :initform 0.0)
-   (orientation_w
-    :reader orientation_w
-    :initarg :orientation_w
-    :type cl:float
-    :initform 0.0)
    (distance
     :reader distance
     :initarg :distance
+    :type cl:float
+    :initform 0.0)
+   (battery
+    :reader battery
+    :initarg :battery
     :type cl:float
     :initform 0.0))
 )
@@ -67,35 +47,15 @@
   (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader battery_exploration-msg:y-val is deprecated.  Use battery_exploration-msg:y instead.")
   (y m))
 
-(cl:ensure-generic-function 'z-val :lambda-list '(m))
-(cl:defmethod z-val ((m <battery_station>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader battery_exploration-msg:z-val is deprecated.  Use battery_exploration-msg:z instead.")
-  (z m))
-
-(cl:ensure-generic-function 'orientation_x-val :lambda-list '(m))
-(cl:defmethod orientation_x-val ((m <battery_station>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader battery_exploration-msg:orientation_x-val is deprecated.  Use battery_exploration-msg:orientation_x instead.")
-  (orientation_x m))
-
-(cl:ensure-generic-function 'orientation_y-val :lambda-list '(m))
-(cl:defmethod orientation_y-val ((m <battery_station>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader battery_exploration-msg:orientation_y-val is deprecated.  Use battery_exploration-msg:orientation_y instead.")
-  (orientation_y m))
-
-(cl:ensure-generic-function 'orientation_z-val :lambda-list '(m))
-(cl:defmethod orientation_z-val ((m <battery_station>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader battery_exploration-msg:orientation_z-val is deprecated.  Use battery_exploration-msg:orientation_z instead.")
-  (orientation_z m))
-
-(cl:ensure-generic-function 'orientation_w-val :lambda-list '(m))
-(cl:defmethod orientation_w-val ((m <battery_station>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader battery_exploration-msg:orientation_w-val is deprecated.  Use battery_exploration-msg:orientation_w instead.")
-  (orientation_w m))
-
 (cl:ensure-generic-function 'distance-val :lambda-list '(m))
 (cl:defmethod distance-val ((m <battery_station>))
   (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader battery_exploration-msg:distance-val is deprecated.  Use battery_exploration-msg:distance instead.")
   (distance m))
+
+(cl:ensure-generic-function 'battery-val :lambda-list '(m))
+(cl:defmethod battery-val ((m <battery_station>))
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader battery_exploration-msg:battery-val is deprecated.  Use battery_exploration-msg:battery instead.")
+  (battery m))
 (cl:defmethod roslisp-msg-protocol:serialize ((msg <battery_station>) ostream)
   "Serializes a message object of type '<battery_station>"
   (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'x))))
@@ -108,32 +68,12 @@
     (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
-  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'z))))
-    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
-  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'orientation_x))))
-    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
-  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'orientation_y))))
-    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
-  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'orientation_z))))
-    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
-  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'orientation_w))))
-    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
-    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
   (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'distance))))
+    (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
+    (cl:write-byte (cl:ldb (cl:byte 8 24) bits) ostream))
+  (cl:let ((bits (roslisp-utils:encode-single-float-bits (cl:slot-value msg 'battery))))
     (cl:write-byte (cl:ldb (cl:byte 8 0) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 8) bits) ostream)
     (cl:write-byte (cl:ldb (cl:byte 8 16) bits) ostream)
@@ -158,37 +98,13 @@
       (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
       (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
-    (cl:setf (cl:slot-value msg 'z) (roslisp-utils:decode-single-float-bits bits)))
-    (cl:let ((bits 0))
-      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
-    (cl:setf (cl:slot-value msg 'orientation_x) (roslisp-utils:decode-single-float-bits bits)))
-    (cl:let ((bits 0))
-      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
-    (cl:setf (cl:slot-value msg 'orientation_y) (roslisp-utils:decode-single-float-bits bits)))
-    (cl:let ((bits 0))
-      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
-    (cl:setf (cl:slot-value msg 'orientation_z) (roslisp-utils:decode-single-float-bits bits)))
-    (cl:let ((bits 0))
-      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
-    (cl:setf (cl:slot-value msg 'orientation_w) (roslisp-utils:decode-single-float-bits bits)))
-    (cl:let ((bits 0))
-      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
-      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
     (cl:setf (cl:slot-value msg 'distance) (roslisp-utils:decode-single-float-bits bits)))
+    (cl:let ((bits 0))
+      (cl:setf (cl:ldb (cl:byte 8 0) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 8) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 16) bits) (cl:read-byte istream))
+      (cl:setf (cl:ldb (cl:byte 8 24) bits) (cl:read-byte istream))
+    (cl:setf (cl:slot-value msg 'battery) (roslisp-utils:decode-single-float-bits bits)))
   msg
 )
 (cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql '<battery_station>)))
@@ -199,22 +115,18 @@
   "battery_exploration/battery_station")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<battery_station>)))
   "Returns md5sum for a message object of type '<battery_station>"
-  "66744cc284356957a3941b5cf863c900")
+  "eb1e3cafe78d7101d500adbbdedc5d81")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql 'battery_station)))
   "Returns md5sum for a message object of type 'battery_station"
-  "66744cc284356957a3941b5cf863c900")
+  "eb1e3cafe78d7101d500adbbdedc5d81")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<battery_station>)))
   "Returns full string definition for message of type '<battery_station>"
-  (cl:format cl:nil "float32 x~%float32 y~%float32 z~%float32 orientation_x~%float32 orientation_y~%float32 orientation_z~%float32 orientation_w~%float32 distance~%~%~%"))
+  (cl:format cl:nil "float32 x~%float32 y~%float32 distance~%float32 battery~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'battery_station)))
   "Returns full string definition for message of type 'battery_station"
-  (cl:format cl:nil "float32 x~%float32 y~%float32 z~%float32 orientation_x~%float32 orientation_y~%float32 orientation_z~%float32 orientation_w~%float32 distance~%~%~%"))
+  (cl:format cl:nil "float32 x~%float32 y~%float32 distance~%float32 battery~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <battery_station>))
   (cl:+ 0
-     4
-     4
-     4
-     4
      4
      4
      4
@@ -225,10 +137,6 @@
   (cl:list 'battery_station
     (cl:cons ':x (x msg))
     (cl:cons ':y (y msg))
-    (cl:cons ':z (z msg))
-    (cl:cons ':orientation_x (orientation_x msg))
-    (cl:cons ':orientation_y (orientation_y msg))
-    (cl:cons ':orientation_z (orientation_z msg))
-    (cl:cons ':orientation_w (orientation_w msg))
     (cl:cons ':distance (distance msg))
+    (cl:cons ':battery (battery msg))
 ))

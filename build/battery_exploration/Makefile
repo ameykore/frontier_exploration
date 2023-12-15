@@ -194,6 +194,19 @@ battery_exploration_gennodejs/fast:
 .PHONY : battery_exploration_gennodejs/fast
 
 #=============================================================================
+# Target rules for targets named battery_exploration_generate_messages_nodejs
+
+# Build rule for target.
+battery_exploration_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 battery_exploration_generate_messages_nodejs
+.PHONY : battery_exploration_generate_messages_nodejs
+
+# fast build rule for target.
+battery_exploration_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/battery_exploration_generate_messages_nodejs.dir/build.make CMakeFiles/battery_exploration_generate_messages_nodejs.dir/build
+.PHONY : battery_exploration_generate_messages_nodejs/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_eus
 
 # Build rule for target.
@@ -270,19 +283,6 @@ roscpp_generate_messages_cpp: cmake_check_build_system
 roscpp_generate_messages_cpp/fast:
 	$(MAKE) -f CMakeFiles/roscpp_generate_messages_cpp.dir/build.make CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named battery_exploration_generate_messages_nodejs
-
-# Build rule for target.
-battery_exploration_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 battery_exploration_generate_messages_nodejs
-.PHONY : battery_exploration_generate_messages_nodejs
-
-# fast build rule for target.
-battery_exploration_generate_messages_nodejs/fast:
-	$(MAKE) -f CMakeFiles/battery_exploration_generate_messages_nodejs.dir/build.make CMakeFiles/battery_exploration_generate_messages_nodejs.dir/build
-.PHONY : battery_exploration_generate_messages_nodejs/fast
 
 #=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_lisp
@@ -545,6 +545,19 @@ _battery_exploration_generate_messages_check_deps_battery_station/fast:
 .PHONY : _battery_exploration_generate_messages_check_deps_battery_station/fast
 
 #=============================================================================
+# Target rules for targets named _battery_exploration_generate_messages_check_deps_station
+
+# Build rule for target.
+_battery_exploration_generate_messages_check_deps_station: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _battery_exploration_generate_messages_check_deps_station
+.PHONY : _battery_exploration_generate_messages_check_deps_station
+
+# fast build rule for target.
+_battery_exploration_generate_messages_check_deps_station/fast:
+	$(MAKE) -f CMakeFiles/_battery_exploration_generate_messages_check_deps_station.dir/build.make CMakeFiles/_battery_exploration_generate_messages_check_deps_station.dir/build
+.PHONY : _battery_exploration_generate_messages_check_deps_station/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_py
 
 # Build rule for target.
@@ -647,6 +660,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... battery_exploration_generate_messages_py"
 	@echo "... battery_exploration_gennodejs"
+	@echo "... battery_exploration_generate_messages_nodejs"
 	@echo "... install/local"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... test"
@@ -656,7 +670,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... roscpp_generate_messages_cpp"
-	@echo "... battery_exploration_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... download_extra_data"
 	@echo "... battery_exploration_genpy"
@@ -677,6 +690,7 @@ help:
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... _battery_exploration_generate_messages_check_deps_battery_station"
+	@echo "... _battery_exploration_generate_messages_check_deps_station"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... doxygen"
 	@echo "... battery_exploration_gencpp"

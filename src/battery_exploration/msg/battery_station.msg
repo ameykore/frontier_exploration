@@ -1,8 +1,4 @@
 float32 x
 float32 y
-float32 z
-float32 orientation_x
-float32 orientation_y
-float32 orientation_z
-float32 orientation_w
 float32 distance
+float32 battery

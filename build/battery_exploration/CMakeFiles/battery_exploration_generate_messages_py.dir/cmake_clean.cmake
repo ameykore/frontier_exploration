@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "/frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/__init__.py"
   "/frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/_battery_station.py"
+  "/frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/_station.py"
   "CMakeFiles/battery_exploration_generate_messages_py"
 )
 

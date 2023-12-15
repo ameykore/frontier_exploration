@@ -8,20 +8,16 @@ import struct
 
 
 class battery_station(genpy.Message):
-  _md5sum = "66744cc284356957a3941b5cf863c900"
+  _md5sum = "eb1e3cafe78d7101d500adbbdedc5d81"
   _type = "battery_exploration/battery_station"
   _has_header = False  # flag to mark the presence of a Header object
   _full_text = """float32 x
 float32 y
-float32 z
-float32 orientation_x
-float32 orientation_y
-float32 orientation_z
-float32 orientation_w
 float32 distance
+float32 battery
 """
-  __slots__ = ['x','y','z','orientation_x','orientation_y','orientation_z','orientation_w','distance']
-  _slot_types = ['float32','float32','float32','float32','float32','float32','float32','float32']
+  __slots__ = ['x','y','distance','battery']
+  _slot_types = ['float32','float32','float32','float32']
 
   def __init__(self, *args, **kwds):
     """
@@ -31,7 +27,7 @@ float32 distance
     changes.  You cannot mix in-order arguments and keyword arguments.
 
     The available fields are:
-       x,y,z,orientation_x,orientation_y,orientation_z,orientation_w,distance
+       x,y,distance,battery
 
     :param args: complete set of field values, in .msg order
     :param kwds: use keyword arguments corresponding to message field names
@@ -44,27 +40,15 @@ float32 distance
         self.x = 0.
       if self.y is None:
         self.y = 0.
-      if self.z is None:
-        self.z = 0.
-      if self.orientation_x is None:
-        self.orientation_x = 0.
-      if self.orientation_y is None:
-        self.orientation_y = 0.
-      if self.orientation_z is None:
-        self.orientation_z = 0.
-      if self.orientation_w is None:
-        self.orientation_w = 0.
       if self.distance is None:
         self.distance = 0.
+      if self.battery is None:
+        self.battery = 0.
     else:
       self.x = 0.
       self.y = 0.
-      self.z = 0.
-      self.orientation_x = 0.
-      self.orientation_y = 0.
-      self.orientation_z = 0.
-      self.orientation_w = 0.
       self.distance = 0.
+      self.battery = 0.
 
   def _get_types(self):
     """
@@ -79,7 +63,7 @@ float32 distance
     """
     try:
       _x = self
-      buff.write(_get_struct_8f().pack(_x.x, _x.y, _x.z, _x.orientation_x, _x.orientation_y, _x.orientation_z, _x.orientation_w, _x.distance))
+      buff.write(_get_struct_4f().pack(_x.x, _x.y, _x.distance, _x.battery))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -94,8 +78,8 @@ float32 distance
       end = 0
       _x = self
       start = end
-      end += 32
-      (_x.x, _x.y, _x.z, _x.orientation_x, _x.orientation_y, _x.orientation_z, _x.orientation_w, _x.distance,) = _get_struct_8f().unpack(str[start:end])
+      end += 16
+      (_x.x, _x.y, _x.distance, _x.battery,) = _get_struct_4f().unpack(str[start:end])
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill
@@ -109,7 +93,7 @@ float32 distance
     """
     try:
       _x = self
-      buff.write(_get_struct_8f().pack(_x.x, _x.y, _x.z, _x.orientation_x, _x.orientation_y, _x.orientation_z, _x.orientation_w, _x.distance))
+      buff.write(_get_struct_4f().pack(_x.x, _x.y, _x.distance, _x.battery))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -125,8 +109,8 @@ float32 distance
       end = 0
       _x = self
       start = end
-      end += 32
-      (_x.x, _x.y, _x.z, _x.orientation_x, _x.orientation_y, _x.orientation_z, _x.orientation_w, _x.distance,) = _get_struct_8f().unpack(str[start:end])
+      end += 16
+      (_x.x, _x.y, _x.distance, _x.battery,) = _get_struct_4f().unpack(str[start:end])
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill
@@ -135,9 +119,9 @@ _struct_I = genpy.struct_I
 def _get_struct_I():
     global _struct_I
     return _struct_I
-_struct_8f = None
-def _get_struct_8f():
-    global _struct_8f
-    if _struct_8f is None:
-        _struct_8f = struct.Struct("<8f")
-    return _struct_8f
+_struct_4f = None
+def _get_struct_4f():
+    global _struct_4f
+    if _struct_4f is None:
+        _struct_4f = struct.Struct("<4f")
+    return _struct_4f

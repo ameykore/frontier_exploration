@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/battery_exploration
 include CMakeFiles/battery_exploration_generate_messages_eus.dir/progress.make
 
 CMakeFiles/battery_exploration_generate_messages_eus: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/msg/battery_station.l
+CMakeFiles/battery_exploration_generate_messages_eus: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/msg/station.l
 CMakeFiles/battery_exploration_generate_messages_eus: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/manifest.l
 
 
@@ -62,12 +63,18 @@ CMakeFiles/battery_exploration_generate_messages_eus: /frontier_expo/frontier_ex
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from battery_exploration/battery_station.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg -Ibattery_exploration:/frontier_expo/frontier_exploration/src/battery_exploration/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p battery_exploration -o /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/msg
 
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/msg/station.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/msg/station.l: /frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from battery_exploration/station.msg"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg -Ibattery_exploration:/frontier_expo/frontier_exploration/src/battery_exploration/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p battery_exploration -o /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/msg
+
 /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for battery_exploration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for battery_exploration"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration battery_exploration std_msgs
 
 battery_exploration_generate_messages_eus: CMakeFiles/battery_exploration_generate_messages_eus
 battery_exploration_generate_messages_eus: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/msg/battery_station.l
+battery_exploration_generate_messages_eus: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/msg/station.l
 battery_exploration_generate_messages_eus: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/roseus/ros/battery_exploration/manifest.l
 battery_exploration_generate_messages_eus: CMakeFiles/battery_exploration_generate_messages_eus.dir/build.make
 

@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
-messages_str = "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg"
+messages_str = "/frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg;/frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg"
 services_str = ""
 pkg_name = "battery_exploration"
 dependencies_str = "std_msgs"

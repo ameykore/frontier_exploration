@@ -20,12 +20,8 @@ class battery_station {
       // initObj === null is a special case for deserialization where we don't initialize fields
       this.x = null;
       this.y = null;
-      this.z = null;
-      this.orientation_x = null;
-      this.orientation_y = null;
-      this.orientation_z = null;
-      this.orientation_w = null;
       this.distance = null;
+      this.battery = null;
     }
     else {
       if (initObj.hasOwnProperty('x')) {
@@ -40,41 +36,17 @@ class battery_station {
       else {
         this.y = 0.0;
       }
-      if (initObj.hasOwnProperty('z')) {
-        this.z = initObj.z
-      }
-      else {
-        this.z = 0.0;
-      }
-      if (initObj.hasOwnProperty('orientation_x')) {
-        this.orientation_x = initObj.orientation_x
-      }
-      else {
-        this.orientation_x = 0.0;
-      }
-      if (initObj.hasOwnProperty('orientation_y')) {
-        this.orientation_y = initObj.orientation_y
-      }
-      else {
-        this.orientation_y = 0.0;
-      }
-      if (initObj.hasOwnProperty('orientation_z')) {
-        this.orientation_z = initObj.orientation_z
-      }
-      else {
-        this.orientation_z = 0.0;
-      }
-      if (initObj.hasOwnProperty('orientation_w')) {
-        this.orientation_w = initObj.orientation_w
-      }
-      else {
-        this.orientation_w = 0.0;
-      }
       if (initObj.hasOwnProperty('distance')) {
         this.distance = initObj.distance
       }
       else {
         this.distance = 0.0;
+      }
+      if (initObj.hasOwnProperty('battery')) {
+        this.battery = initObj.battery
+      }
+      else {
+        this.battery = 0.0;
       }
     }
   }
@@ -85,18 +57,10 @@ class battery_station {
     bufferOffset = _serializer.float32(obj.x, buffer, bufferOffset);
     // Serialize message field [y]
     bufferOffset = _serializer.float32(obj.y, buffer, bufferOffset);
-    // Serialize message field [z]
-    bufferOffset = _serializer.float32(obj.z, buffer, bufferOffset);
-    // Serialize message field [orientation_x]
-    bufferOffset = _serializer.float32(obj.orientation_x, buffer, bufferOffset);
-    // Serialize message field [orientation_y]
-    bufferOffset = _serializer.float32(obj.orientation_y, buffer, bufferOffset);
-    // Serialize message field [orientation_z]
-    bufferOffset = _serializer.float32(obj.orientation_z, buffer, bufferOffset);
-    // Serialize message field [orientation_w]
-    bufferOffset = _serializer.float32(obj.orientation_w, buffer, bufferOffset);
     // Serialize message field [distance]
     bufferOffset = _serializer.float32(obj.distance, buffer, bufferOffset);
+    // Serialize message field [battery]
+    bufferOffset = _serializer.float32(obj.battery, buffer, bufferOffset);
     return bufferOffset;
   }
 
@@ -108,23 +72,15 @@ class battery_station {
     data.x = _deserializer.float32(buffer, bufferOffset);
     // Deserialize message field [y]
     data.y = _deserializer.float32(buffer, bufferOffset);
-    // Deserialize message field [z]
-    data.z = _deserializer.float32(buffer, bufferOffset);
-    // Deserialize message field [orientation_x]
-    data.orientation_x = _deserializer.float32(buffer, bufferOffset);
-    // Deserialize message field [orientation_y]
-    data.orientation_y = _deserializer.float32(buffer, bufferOffset);
-    // Deserialize message field [orientation_z]
-    data.orientation_z = _deserializer.float32(buffer, bufferOffset);
-    // Deserialize message field [orientation_w]
-    data.orientation_w = _deserializer.float32(buffer, bufferOffset);
     // Deserialize message field [distance]
     data.distance = _deserializer.float32(buffer, bufferOffset);
+    // Deserialize message field [battery]
+    data.battery = _deserializer.float32(buffer, bufferOffset);
     return data;
   }
 
   static getMessageSize(object) {
-    return 32;
+    return 16;
   }
 
   static datatype() {
@@ -134,7 +90,7 @@ class battery_station {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '66744cc284356957a3941b5cf863c900';
+    return 'eb1e3cafe78d7101d500adbbdedc5d81';
   }
 
   static messageDefinition() {
@@ -142,12 +98,8 @@ class battery_station {
     return `
     float32 x
     float32 y
-    float32 z
-    float32 orientation_x
-    float32 orientation_y
-    float32 orientation_z
-    float32 orientation_w
     float32 distance
+    float32 battery
     
     `;
   }
@@ -172,46 +124,18 @@ class battery_station {
       resolved.y = 0.0
     }
 
-    if (msg.z !== undefined) {
-      resolved.z = msg.z;
-    }
-    else {
-      resolved.z = 0.0
-    }
-
-    if (msg.orientation_x !== undefined) {
-      resolved.orientation_x = msg.orientation_x;
-    }
-    else {
-      resolved.orientation_x = 0.0
-    }
-
-    if (msg.orientation_y !== undefined) {
-      resolved.orientation_y = msg.orientation_y;
-    }
-    else {
-      resolved.orientation_y = 0.0
-    }
-
-    if (msg.orientation_z !== undefined) {
-      resolved.orientation_z = msg.orientation_z;
-    }
-    else {
-      resolved.orientation_z = 0.0
-    }
-
-    if (msg.orientation_w !== undefined) {
-      resolved.orientation_w = msg.orientation_w;
-    }
-    else {
-      resolved.orientation_w = 0.0
-    }
-
     if (msg.distance !== undefined) {
       resolved.distance = msg.distance;
     }
     else {
       resolved.distance = 0.0
+    }
+
+    if (msg.battery !== undefined) {
+      resolved.battery = msg.battery;
+    }
+    else {
+      resolved.battery = 0.0
     }
 
     return resolved;

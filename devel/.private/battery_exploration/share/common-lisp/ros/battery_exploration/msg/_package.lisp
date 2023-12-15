@@ -3,5 +3,7 @@
   (:export
    "<BATTERY_STATION>"
    "BATTERY_STATION"
+   "<STATION>"
+   "STATION"
   ))
 

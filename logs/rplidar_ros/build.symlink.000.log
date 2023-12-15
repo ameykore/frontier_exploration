@@ -1,5 +1,0 @@
-Symlinking /frontier_expo/frontier_exploration/devel/lib/pkgconfig/rplidar_ros.pc
-Symlinking /frontier_expo/frontier_exploration/devel/lib/rplidar_ros/rplidarNode
-Symlinking /frontier_expo/frontier_exploration/devel/lib/rplidar_ros/rplidarNodeClient
-Symlinking /frontier_expo/frontier_exploration/devel/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
-Symlinking /frontier_expo/frontier_exploration/devel/share/rplidar_ros/cmake/rplidar_rosConfig.cmake

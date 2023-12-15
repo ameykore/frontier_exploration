@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /frontier_expo/frontier_exploration/build/battery_exploration
 include CMakeFiles/battery_exploration_generate_messages_py.dir/progress.make
 
 CMakeFiles/battery_exploration_generate_messages_py: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/_battery_station.py
+CMakeFiles/battery_exploration_generate_messages_py: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/_station.py
 CMakeFiles/battery_exploration_generate_messages_py: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/__init__.py
 
 
@@ -62,13 +63,20 @@ CMakeFiles/battery_exploration_generate_messages_py: /frontier_expo/frontier_exp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG battery_exploration/battery_station"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /frontier_expo/frontier_exploration/src/battery_exploration/msg/battery_station.msg -Ibattery_exploration:/frontier_expo/frontier_exploration/src/battery_exploration/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p battery_exploration -o /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg
 
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/_station.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/_station.py: /frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG battery_exploration/station"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /frontier_expo/frontier_exploration/src/battery_exploration/msg/station.msg -Ibattery_exploration:/frontier_expo/frontier_exploration/src/battery_exploration/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p battery_exploration -o /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg
+
 /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/__init__.py: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/_battery_station.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for battery_exploration"
+/frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/__init__.py: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/_station.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/frontier_expo/frontier_exploration/build/battery_exploration/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for battery_exploration"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg --initpy
 
 battery_exploration_generate_messages_py: CMakeFiles/battery_exploration_generate_messages_py
 battery_exploration_generate_messages_py: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/_battery_station.py
+battery_exploration_generate_messages_py: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/_station.py
 battery_exploration_generate_messages_py: /frontier_expo/frontier_exploration/devel/.private/battery_exploration/lib/python3/dist-packages/battery_exploration/msg/__init__.py
 battery_exploration_generate_messages_py: CMakeFiles/battery_exploration_generate_messages_py.dir/build.make
 

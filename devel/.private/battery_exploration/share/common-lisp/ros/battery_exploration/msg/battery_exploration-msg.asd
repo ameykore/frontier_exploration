@@ -6,4 +6,6 @@
   :components ((:file "_package")
     (:file "battery_station" :depends-on ("_package_battery_station"))
     (:file "_package_battery_station" :depends-on ("_package"))
+    (:file "station" :depends-on ("_package_station"))
+    (:file "_package_station" :depends-on ("_package"))
   ))

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "/frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/gennodejs/ros/battery_exploration/msg/battery_station.js"
+  "/frontier_expo/frontier_exploration/devel/.private/battery_exploration/share/gennodejs/ros/battery_exploration/msg/station.js"
   "CMakeFiles/battery_exploration_generate_messages_nodejs"
 )
 
