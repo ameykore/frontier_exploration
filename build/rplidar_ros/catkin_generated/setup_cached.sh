@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/frontier_expo/frontier_exploration/devel/.private/rplidar_ros:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/frontier_expo/frontier_exploration/build/rplidar_ros'
 export ROSLISP_PACKAGE_DIRECTORIES="/frontier_expo/frontier_exploration/devel/.private/rplidar_ros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/frontier_expo/frontier_exploration/src/rplidar_ros:$ROS_PACKAGE_PATH"

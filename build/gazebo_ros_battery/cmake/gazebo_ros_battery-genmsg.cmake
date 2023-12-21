@@ -24,7 +24,7 @@ add_custom_target(_gazebo_ros_battery_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/frontier_expo/frontier_exploration/src/gazebo_ros_battery/srv/SetCharge.srv" NAME_WE)
 add_custom_target(_gazebo_ros_battery_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "gazebo_ros_battery" "/frontier_expo/frontier_exploration/src/gazebo_ros_battery/srv/SetCharge.srv" "std_msgs/Bool:std_msgs/Float32"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "gazebo_ros_battery" "/frontier_expo/frontier_exploration/src/gazebo_ros_battery/srv/SetCharge.srv" "std_msgs/Float32:std_msgs/Bool"
 )
 
 get_filename_component(_filename "/frontier_expo/frontier_exploration/src/gazebo_ros_battery/srv/SetTemperature.srv" NAME_WE)
@@ -49,7 +49,7 @@ _generate_srv_cpp(gazebo_ros_battery
 _generate_srv_cpp(gazebo_ros_battery
   "/frontier_expo/frontier_exploration/src/gazebo_ros_battery/srv/SetCharge.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/gazebo_ros_battery
 )
 _generate_srv_cpp(gazebo_ros_battery
@@ -98,7 +98,7 @@ _generate_srv_eus(gazebo_ros_battery
 _generate_srv_eus(gazebo_ros_battery
   "/frontier_expo/frontier_exploration/src/gazebo_ros_battery/srv/SetCharge.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/gazebo_ros_battery
 )
 _generate_srv_eus(gazebo_ros_battery
@@ -147,7 +147,7 @@ _generate_srv_lisp(gazebo_ros_battery
 _generate_srv_lisp(gazebo_ros_battery
   "/frontier_expo/frontier_exploration/src/gazebo_ros_battery/srv/SetCharge.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/gazebo_ros_battery
 )
 _generate_srv_lisp(gazebo_ros_battery
@@ -196,7 +196,7 @@ _generate_srv_nodejs(gazebo_ros_battery
 _generate_srv_nodejs(gazebo_ros_battery
   "/frontier_expo/frontier_exploration/src/gazebo_ros_battery/srv/SetCharge.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/gazebo_ros_battery
 )
 _generate_srv_nodejs(gazebo_ros_battery
@@ -245,7 +245,7 @@ _generate_srv_py(gazebo_ros_battery
 _generate_srv_py(gazebo_ros_battery
   "/frontier_expo/frontier_exploration/src/gazebo_ros_battery/srv/SetCharge.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg"
+  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Float32.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Bool.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/gazebo_ros_battery
 )
 _generate_srv_py(gazebo_ros_battery
